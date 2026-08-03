@@ -8,8 +8,8 @@ const projects = [
     "roles": [
       "Director of Photography"
     ],
-    "thumbnail": "assets/방주-heterotopia-placeholder.svg",
-    "hero": "assets/방주-heterotopia-placeholder.svg",
+    "thumbnail": "assets/bangju-heterotopia-title.webp",
+    "hero": "assets/bangju-heterotopia-title.webp",
     "video": "",
     "videoUrl": "",
     "videoUrls": [],
@@ -31,7 +31,7 @@ const projects = [
       ]
     ],
     "stills": [
-      "assets/방주-heterotopia-still-01.jpg"
+      "assets/bangju-heterotopia-still-01.webp"
     ]
   },
   {
@@ -44,8 +44,8 @@ const projects = [
       "Director of Photography",
       "Color Grading"
     ],
-    "thumbnail": "assets/연애는-처음입니다만-thumb.png",
-    "hero": "assets/연애는-처음입니다만-hero.png",
+    "thumbnail": "assets/yeonaeneun-ceoeumibnidaman-thumb.webp",
+    "hero": "assets/yeonaeneun-ceoeumibnidaman-hero.webp",
     "video": "https://www.youtube.com/embed/UImmSM2XQgM",
     "videoUrl": "https://youtu.be/UImmSM2XQgM",
     "videoUrls": [
@@ -83,8 +83,8 @@ const projects = [
     "roles": [
       "DIT"
     ],
-    "thumbnail": "assets/지금-우리-학교는2-thumb.png",
-    "hero": "assets/지금-우리-학교는2-hero.png",
+    "thumbnail": "assets/jigeum-uri-haggyoneun2-thumb.webp",
+    "hero": "assets/jigeum-uri-haggyoneun2-hero.webp",
     "video": "",
     "videoUrl": "",
     "videoUrls": [],
@@ -114,8 +114,8 @@ const projects = [
     "roles": [
       "Camera Crew"
     ],
-    "thumbnail": "assets/0-track-thumb.png",
-    "hero": "assets/0-track-hero.png",
+    "thumbnail": "assets/0-track-thumb.webp",
+    "hero": "assets/0-track-hero.webp",
     "video": "",
     "videoUrl": "",
     "videoUrls": [],
@@ -141,12 +141,12 @@ const projects = [
       ]
     ],
     "stills": [
-      "assets/0-track-still-01.png",
-      "assets/0-track-still-02.png",
-      "assets/0-track-still-03.png",
-      "assets/0-track-still-04.png",
-      "assets/0-track-still-05.png",
-      "assets/0-track-still-06.png"
+      "assets/0-track-still-01.webp",
+      "assets/0-track-still-02.webp",
+      "assets/0-track-still-03.webp",
+      "assets/0-track-still-04.webp",
+      "assets/0-track-still-05.webp",
+      "assets/0-track-still-06.webp"
     ]
   },
   {
@@ -159,8 +159,8 @@ const projects = [
       "Camera Crew",
       "Color Grading"
     ],
-    "thumbnail": "assets/13f-thumb.png",
-    "hero": "assets/13f-hero.png",
+    "thumbnail": "assets/13f-thumb.webp",
+    "hero": "assets/13f-hero.webp",
     "video": "https://www.youtube.com/embed/bm1noRlRg2c",
     "videoUrl": "https://youtu.be/ah6-quqOmz8?si=PTEldcoeil_j6J2J",
     "videoUrls": [
@@ -194,9 +194,9 @@ const projects = [
       ]
     ],
     "stills": [
-      "assets/13f-still-01.png",
-      "assets/13f-still-02.png",
-      "assets/13f-still-03.png"
+      "assets/13f-still-01.webp",
+      "assets/13f-still-02.webp",
+      "assets/13f-still-03.webp"
     ]
   },
   {
@@ -208,8 +208,8 @@ const projects = [
     "roles": [
       "Camera Crew"
     ],
-    "thumbnail": "assets/nonol-live-thumb.jpg",
-    "hero": "assets/nonol-live-hero.jpg",
+    "thumbnail": "assets/nonol-live-thumb.webp",
+    "hero": "assets/nonol-live-hero.webp",
     "video": "https://youtu.be/V0vkrujq-0c?si=JPP5J6-b7XTxXsxr",
     "videoUrl": "https://youtu.be/V0vkrujq-0c?si=JPP5J6-b7XTxXsxr",
     "videoUrls": [
@@ -232,10 +232,10 @@ const projects = [
       ]
     ],
     "stills": [
-      "assets/nonol-live-still-01.jpg",
-      "assets/nonol-live-still-02.jpg",
-      "assets/nonol-live-still-03.jpg",
-      "assets/nonol-live-still-04.jpg"
+      "assets/nonol-live-still-01.webp",
+      "assets/nonol-live-still-02.webp",
+      "assets/nonol-live-still-03.webp",
+      "assets/nonol-live-still-04.webp"
     ]
   },
   {
@@ -247,8 +247,8 @@ const projects = [
     "roles": [
       "Camera Crew"
     ],
-    "thumbnail": "assets/sara-thumb.png",
-    "hero": "assets/sara-hero.png",
+    "thumbnail": "assets/sara-thumb.webp",
+    "hero": "assets/sara-hero.webp",
     "video": "https://www.youtube.com/embed/fy_rqg5M1H0",
     "videoUrl": "https://youtu.be/fy_rqg5M1H0?si=FpoPWDNzoD_ma6RS",
     "videoUrls": [
@@ -276,29 +276,29 @@ const projects = [
       ]
     ],
     "stills": [
-      "assets/sara-still-01.png",
-      "assets/sara-still-02.png",
-      "assets/sara-still-03.png",
-      "assets/sara-still-04.png",
-      "assets/sara-still-05.png",
-      "assets/sara-still-06.png",
-      "assets/sara-still-07.png",
-      "assets/sara-still-08.png",
-      "assets/sara-still-09.png",
-      "assets/sara-still-10.png",
-      "assets/sara-still-11.png",
-      "assets/sara-still-12.png",
-      "assets/sara-still-13.png",
-      "assets/sara-still-14.png",
-      "assets/sara-still-15.png",
-      "assets/sara-still-16.png",
-      "assets/sara-still-17.png",
-      "assets/sara-still-18.png",
-      "assets/sara-still-19.png",
-      "assets/sara-still-20.png",
-      "assets/sara-still-21.png",
-      "assets/sara-still-22.png",
-      "assets/sara-still-23.png"
+      "assets/sara-still-01.webp",
+      "assets/sara-still-02.webp",
+      "assets/sara-still-03.webp",
+      "assets/sara-still-04.webp",
+      "assets/sara-still-05.webp",
+      "assets/sara-still-06.webp",
+      "assets/sara-still-07.webp",
+      "assets/sara-still-08.webp",
+      "assets/sara-still-09.webp",
+      "assets/sara-still-10.webp",
+      "assets/sara-still-11.webp",
+      "assets/sara-still-12.webp",
+      "assets/sara-still-13.webp",
+      "assets/sara-still-14.webp",
+      "assets/sara-still-15.webp",
+      "assets/sara-still-16.webp",
+      "assets/sara-still-17.webp",
+      "assets/sara-still-18.webp",
+      "assets/sara-still-19.webp",
+      "assets/sara-still-20.webp",
+      "assets/sara-still-21.webp",
+      "assets/sara-still-22.webp",
+      "assets/sara-still-23.webp"
     ]
   },
   {
@@ -310,8 +310,8 @@ const projects = [
     "roles": [
       "Camera Crew"
     ],
-    "thumbnail": "assets/the-rascals-thumb.png",
-    "hero": "assets/the-rascals-hero.png",
+    "thumbnail": "assets/the-rascals-thumb.webp",
+    "hero": "assets/the-rascals-hero.webp",
     "video": "https://www.youtube.com/embed/q8GbFBYJ6dk",
     "videoUrl": "https://youtu.be/q8GbFBYJ6dk?si=4Emqopvyv_yzbHp-",
     "videoUrls": [
@@ -339,12 +339,12 @@ const projects = [
       ]
     ],
     "stills": [
-      "assets/the-rascals-still-01.png",
-      "assets/the-rascals-still-02.png",
-      "assets/the-rascals-still-03.png",
-      "assets/the-rascals-still-04.png",
-      "assets/the-rascals-still-05.png",
-      "assets/the-rascals-still-06.png"
+      "assets/the-rascals-still-01.webp",
+      "assets/the-rascals-still-02.webp",
+      "assets/the-rascals-still-03.webp",
+      "assets/the-rascals-still-04.webp",
+      "assets/the-rascals-still-05.webp",
+      "assets/the-rascals-still-06.webp"
     ]
   },
   {
@@ -357,8 +357,8 @@ const projects = [
       "Camera Crew",
       "Color Grading"
     ],
-    "thumbnail": "assets/muchae-thumb.png",
-    "hero": "assets/muchae-hero.png",
+    "thumbnail": "assets/muchae-thumb.webp",
+    "hero": "assets/muchae-hero.webp",
     "video": "https://www.youtube.com/embed/7IV7AvQxfWI",
     "videoUrl": "https://www.youtube.com/watch?v=7IV7AvQxfWI",
     "videoUrls": [
@@ -390,28 +390,28 @@ const projects = [
       ]
     ],
     "stills": [
-      "assets/muchae-still-01.png",
-      "assets/muchae-still-02.png",
-      "assets/muchae-still-03.png",
-      "assets/muchae-still-04.png",
-      "assets/muchae-still-05.png",
-      "assets/muchae-still-06.png",
-      "assets/muchae-still-07.png",
-      "assets/muchae-still-08.png",
-      "assets/muchae-still-09.png",
-      "assets/muchae-still-10.png",
-      "assets/muchae-still-11.png",
-      "assets/muchae-still-12.png",
-      "assets/muchae-still-13.png",
-      "assets/muchae-still-14.png",
-      "assets/muchae-still-15.png",
-      "assets/muchae-still-16.png",
-      "assets/muchae-still-17.png",
-      "assets/muchae-still-18.png",
-      "assets/muchae-still-19.png",
-      "assets/muchae-still-20.png",
-      "assets/muchae-still-21.png",
-      "assets/muchae-still-22.png"
+      "assets/muchae-still-01.webp",
+      "assets/muchae-still-02.webp",
+      "assets/muchae-still-03.webp",
+      "assets/muchae-still-04.webp",
+      "assets/muchae-still-05.webp",
+      "assets/muchae-still-06.webp",
+      "assets/muchae-still-07.webp",
+      "assets/muchae-still-08.webp",
+      "assets/muchae-still-09.webp",
+      "assets/muchae-still-10.webp",
+      "assets/muchae-still-11.webp",
+      "assets/muchae-still-12.webp",
+      "assets/muchae-still-13.webp",
+      "assets/muchae-still-14.webp",
+      "assets/muchae-still-15.webp",
+      "assets/muchae-still-16.webp",
+      "assets/muchae-still-17.webp",
+      "assets/muchae-still-18.webp",
+      "assets/muchae-still-19.webp",
+      "assets/muchae-still-20.webp",
+      "assets/muchae-still-21.webp",
+      "assets/muchae-still-22.webp"
     ]
   },
   {
@@ -423,8 +423,8 @@ const projects = [
     "roles": [
       "Camera Crew"
     ],
-    "thumbnail": "assets/we-gobi-thumb.png",
-    "hero": "assets/we-gobi-hero.png",
+    "thumbnail": "assets/we-gobi-thumb.webp",
+    "hero": "assets/we-gobi-hero.webp",
     "video": "https://www.youtube.com/embed/y86b4vGheKs",
     "videoUrl": "https://youtu.be/y86b4vGheKs?si=OFDWZP8_fwpxqQ8S",
     "videoUrls": [
@@ -452,16 +452,16 @@ const projects = [
       ]
     ],
     "stills": [
-      "assets/we-gobi-still-01.png",
-      "assets/we-gobi-still-02.png",
-      "assets/we-gobi-still-03.png",
-      "assets/we-gobi-still-04.png",
-      "assets/we-gobi-still-05.png",
-      "assets/we-gobi-still-06.png",
-      "assets/we-gobi-still-07.png",
-      "assets/we-gobi-still-08.png",
-      "assets/we-gobi-still-09.png",
-      "assets/we-gobi-still-10.png"
+      "assets/we-gobi-still-01.webp",
+      "assets/we-gobi-still-02.webp",
+      "assets/we-gobi-still-03.webp",
+      "assets/we-gobi-still-04.webp",
+      "assets/we-gobi-still-05.webp",
+      "assets/we-gobi-still-06.webp",
+      "assets/we-gobi-still-07.webp",
+      "assets/we-gobi-still-08.webp",
+      "assets/we-gobi-still-09.webp",
+      "assets/we-gobi-still-10.webp"
     ]
   },
   {
@@ -473,8 +473,8 @@ const projects = [
     "roles": [
       "Camera Crew"
     ],
-    "thumbnail": "assets/independence-diary-thumb.png",
-    "hero": "assets/independence-diary-hero.png",
+    "thumbnail": "assets/independence-diary-thumb.webp",
+    "hero": "assets/independence-diary-hero.webp",
     "video": "",
     "videoUrl": "",
     "videoUrls": [],
@@ -500,17 +500,17 @@ const projects = [
       ]
     ],
     "stills": [
-      "assets/independence-diary-still-01.png",
-      "assets/independence-diary-still-02.png",
-      "assets/independence-diary-still-03.png",
-      "assets/independence-diary-still-04.png",
-      "assets/independence-diary-still-05.png",
-      "assets/independence-diary-still-06.png",
-      "assets/independence-diary-still-07.png",
-      "assets/independence-diary-still-08.png",
-      "assets/independence-diary-still-09.png",
-      "assets/independence-diary-still-10.png",
-      "assets/independence-diary-still-11.png"
+      "assets/independence-diary-still-01.webp",
+      "assets/independence-diary-still-02.webp",
+      "assets/independence-diary-still-03.webp",
+      "assets/independence-diary-still-04.webp",
+      "assets/independence-diary-still-05.webp",
+      "assets/independence-diary-still-06.webp",
+      "assets/independence-diary-still-07.webp",
+      "assets/independence-diary-still-08.webp",
+      "assets/independence-diary-still-09.webp",
+      "assets/independence-diary-still-10.webp",
+      "assets/independence-diary-still-11.webp"
     ]
   },
   {
@@ -522,8 +522,8 @@ const projects = [
     "roles": [
       "DIT"
     ],
-    "thumbnail": "assets/lovegame-thumb.png",
-    "hero": "assets/lovegame-hero.png",
+    "thumbnail": "assets/lovegame-thumb.webp",
+    "hero": "assets/lovegame-hero.webp",
     "video": "",
     "videoUrl": "",
     "videoUrls": [],
@@ -551,8 +551,8 @@ const projects = [
     "roles": [
       "DIT"
     ],
-    "thumbnail": "assets/여전히-찬란하게-placeholder.svg",
-    "hero": "assets/여전히-찬란하게-placeholder.svg",
+    "thumbnail": "assets/yeojeonhi-chanranhage-title.webp",
+    "hero": "assets/yeojeonhi-chanranhage-title.webp",
     "video": "",
     "videoUrl": "",
     "videoUrls": [],
@@ -580,8 +580,8 @@ const projects = [
     "roles": [
       "DIT"
     ],
-    "thumbnail": "assets/오늘-밤-세계에서-이-사랑이-사라진다-해도-thumb.png",
-    "hero": "assets/오늘-밤-세계에서-이-사랑이-사라진다-해도-hero.png",
+    "thumbnail": "assets/oneul-bam-segyeeseo-i-sarangi-sarajinda-haedo-thumb.webp",
+    "hero": "assets/oneul-bam-segyeeseo-i-sarangi-sarajinda-haedo-hero.webp",
     "video": "",
     "videoUrl": "",
     "videoUrls": [],
@@ -611,8 +611,8 @@ const projects = [
     "roles": [
       "DIT"
     ],
-    "thumbnail": "assets/중간계-thumb.png",
-    "hero": "assets/중간계-hero.png",
+    "thumbnail": "assets/junggangye-thumb.webp",
+    "hero": "assets/junggangye-hero.webp",
     "video": "",
     "videoUrl": "",
     "videoUrls": [],
@@ -640,8 +640,8 @@ const projects = [
     "roles": [
       "Production"
     ],
-    "thumbnail": "assets/noel-thumb.png",
-    "hero": "assets/noel-hero.png",
+    "thumbnail": "assets/noel-thumb.webp",
+    "hero": "assets/noel-hero.webp",
     "video": "https://www.youtube.com/embed/jXea-3QPZp8",
     "videoUrl": "https://youtu.be/jXea-3QPZp8?si=_q2QY9jR_lCzzjAE",
     "videoUrls": [
@@ -661,13 +661,13 @@ const projects = [
       ]
     ],
     "stills": [
-      "assets/noel-still-01.png",
-      "assets/noel-still-02.png",
-      "assets/noel-still-03.png",
-      "assets/noel-still-04.png",
-      "assets/noel-still-05.png",
-      "assets/noel-still-06.png",
-      "assets/noel-still-07.png"
+      "assets/noel-still-01.webp",
+      "assets/noel-still-02.webp",
+      "assets/noel-still-03.webp",
+      "assets/noel-still-04.webp",
+      "assets/noel-still-05.webp",
+      "assets/noel-still-06.webp",
+      "assets/noel-still-07.webp"
     ]
   },
   {
@@ -679,8 +679,8 @@ const projects = [
     "roles": [
       "Event Broadcasting"
     ],
-    "thumbnail": "assets/광주시-민선8기-출범-3주년-기념행사-thumb.jpg",
-    "hero": "assets/광주시-민선8기-출범-3주년-기념행사-hero.jpg",
+    "thumbnail": "assets/gwangjusi-minseon8gi-culbeom-3junyeon-ginyeomhaengsa-thumb.webp",
+    "hero": "assets/gwangjusi-minseon8gi-culbeom-3junyeon-ginyeomhaengsa-hero.webp",
     "video": "",
     "videoUrl": "",
     "videoUrls": [],
@@ -698,7 +698,7 @@ const projects = [
       ]
     ],
     "stills": [
-      "assets/광주시-민선8기-출범-3주년-기념행사-still-01.jpg"
+      "assets/gwangjusi-minseon8gi-culbeom-3junyeon-ginyeomhaengsa-still-01.webp"
     ]
   },
   {
@@ -710,8 +710,8 @@ const projects = [
     "roles": [
       "Event Broadcasting"
     ],
-    "thumbnail": "assets/뮤지컬-스토리-콘서트-시즌3-thumb.png",
-    "hero": "assets/뮤지컬-스토리-콘서트-시즌3-hero.png",
+    "thumbnail": "assets/myujikeol-seutori-konseoteu-sijeun3-thumb.webp",
+    "hero": "assets/myujikeol-seutori-konseoteu-sijeun3-hero.webp",
     "video": "",
     "videoUrl": "",
     "videoUrls": [],
@@ -743,8 +743,8 @@ const projects = [
     "roles": [
       "Color Grading"
     ],
-    "thumbnail": "assets/gang-thumb.jpg",
-    "hero": "assets/gang-hero.jpg",
+    "thumbnail": "assets/gang-thumb.webp",
+    "hero": "assets/gang-hero.webp",
     "video": "",
     "videoUrl": "",
     "videoUrls": [],
@@ -770,34 +770,34 @@ const projects = [
       ]
     ],
     "stills": [
-      "assets/gang-still-01.jpg",
-      "assets/gang-still-02.jpg",
-      "assets/gang-still-03.jpg",
-      "assets/gang-still-04.jpg",
-      "assets/gang-still-05.jpg",
-      "assets/gang-still-06.jpg",
-      "assets/gang-still-07.jpg",
-      "assets/gang-still-08.jpg",
-      "assets/gang-still-09.jpg",
-      "assets/gang-still-10.jpg",
-      "assets/gang-still-11.jpg",
-      "assets/gang-still-12.jpg",
-      "assets/gang-still-13.jpg",
-      "assets/gang-still-14.jpg",
-      "assets/gang-still-15.jpg",
-      "assets/gang-still-16.jpg",
-      "assets/gang-still-17.jpg",
-      "assets/gang-still-18.jpg",
-      "assets/gang-still-19.jpg",
-      "assets/gang-still-20.jpg",
-      "assets/gang-still-21.jpg",
-      "assets/gang-still-22.jpg",
-      "assets/gang-still-23.jpg",
-      "assets/gang-still-24.jpg",
-      "assets/gang-still-25.jpg",
-      "assets/gang-still-26.jpg",
-      "assets/gang-still-27.jpg",
-      "assets/gang-still-28.jpg"
+      "assets/gang-still-01.webp",
+      "assets/gang-still-02.webp",
+      "assets/gang-still-03.webp",
+      "assets/gang-still-04.webp",
+      "assets/gang-still-05.webp",
+      "assets/gang-still-06.webp",
+      "assets/gang-still-07.webp",
+      "assets/gang-still-08.webp",
+      "assets/gang-still-09.webp",
+      "assets/gang-still-10.webp",
+      "assets/gang-still-11.webp",
+      "assets/gang-still-12.webp",
+      "assets/gang-still-13.webp",
+      "assets/gang-still-14.webp",
+      "assets/gang-still-15.webp",
+      "assets/gang-still-16.webp",
+      "assets/gang-still-17.webp",
+      "assets/gang-still-18.webp",
+      "assets/gang-still-19.webp",
+      "assets/gang-still-20.webp",
+      "assets/gang-still-21.webp",
+      "assets/gang-still-22.webp",
+      "assets/gang-still-23.webp",
+      "assets/gang-still-24.webp",
+      "assets/gang-still-25.webp",
+      "assets/gang-still-26.webp",
+      "assets/gang-still-27.webp",
+      "assets/gang-still-28.webp"
     ]
   },
   {
@@ -809,8 +809,8 @@ const projects = [
     "roles": [
       "Director of Photography"
     ],
-    "thumbnail": "assets/festival-thumb.png",
-    "hero": "assets/festival-hero.png",
+    "thumbnail": "assets/festival-thumb.webp",
+    "hero": "assets/festival-hero.webp",
     "video": "https://www.youtube.com/embed/N2dNoaPqOAc",
     "videoUrl": "https://www.youtube.com/watch?v=N2dNoaPqOAc",
     "videoUrls": [
@@ -834,13 +834,13 @@ const projects = [
       ]
     ],
     "stills": [
-      "assets/festival-still-01.png",
-      "assets/festival-still-02.png",
-      "assets/festival-still-03.png",
-      "assets/festival-still-04.png",
-      "assets/festival-still-05.png",
-      "assets/festival-still-06.png",
-      "assets/festival-still-07.png"
+      "assets/festival-still-01.webp",
+      "assets/festival-still-02.webp",
+      "assets/festival-still-03.webp",
+      "assets/festival-still-04.webp",
+      "assets/festival-still-05.webp",
+      "assets/festival-still-06.webp",
+      "assets/festival-still-07.webp"
     ]
   },
   {
@@ -852,8 +852,8 @@ const projects = [
     "roles": [
       "Director of Photography"
     ],
-    "thumbnail": "assets/as-you-love-thumb.png",
-    "hero": "assets/as-you-love-hero.png",
+    "thumbnail": "assets/as-you-love-thumb.webp",
+    "hero": "assets/as-you-love-hero.webp",
     "video": "",
     "videoUrl": "https://www.instagram.com/reel/DCjf8JavVJd/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     "videoUrls": [
@@ -891,8 +891,8 @@ const projects = [
       "Director of Photography",
       "Color Grading"
     ],
-    "thumbnail": "assets/buriburi-thumb.png",
-    "hero": "assets/buriburi.png",
+    "thumbnail": "assets/buriburi-thumb.webp",
+    "hero": "assets/buriburi.webp",
     "video": "https://www.youtube.com/embed/eq-v7y9FUzM",
     "videoUrl": "https://youtu.be/eq-v7y9FUzM",
     "videoUrls": [
@@ -920,25 +920,25 @@ const projects = [
       ]
     ],
     "stills": [
-      "assets/buriburi-still-01.png",
-      "assets/buriburi-still-02.png",
-      "assets/buriburi-still-03.png",
-      "assets/buriburi-still-04.png",
-      "assets/buriburi-still-05.png",
-      "assets/buriburi-still-06.png",
-      "assets/buriburi-still-07.png",
-      "assets/buriburi-still-10.png",
-      "assets/buriburi-still-12.png",
-      "assets/buriburi-still-13.png",
-      "assets/buriburi-still-14.png",
-      "assets/buriburi-still-15.png",
-      "assets/buriburi-still-16.png",
-      "assets/buriburi-still-17.png",
-      "assets/buriburi-still-18.png",
-      "assets/buriburi-still-19.png",
-      "assets/buriburi-still-20.png",
-      "assets/buriburi-still-21.png",
-      "assets/buriburi-still-22.png"
+      "assets/buriburi-still-01.webp",
+      "assets/buriburi-still-02.webp",
+      "assets/buriburi-still-03.webp",
+      "assets/buriburi-still-04.webp",
+      "assets/buriburi-still-05.webp",
+      "assets/buriburi-still-06.webp",
+      "assets/buriburi-still-07.webp",
+      "assets/buriburi-still-10.webp",
+      "assets/buriburi-still-12.webp",
+      "assets/buriburi-still-13.webp",
+      "assets/buriburi-still-14.webp",
+      "assets/buriburi-still-15.webp",
+      "assets/buriburi-still-16.webp",
+      "assets/buriburi-still-17.webp",
+      "assets/buriburi-still-18.webp",
+      "assets/buriburi-still-19.webp",
+      "assets/buriburi-still-20.webp",
+      "assets/buriburi-still-21.webp",
+      "assets/buriburi-still-22.webp"
     ]
   },
   {
@@ -951,8 +951,8 @@ const projects = [
       "Director of Photography",
       "Color Grading"
     ],
-    "thumbnail": "assets/daisy-thumb.png",
-    "hero": "assets/daisy-hero.png",
+    "thumbnail": "assets/daisy-thumb.webp",
+    "hero": "assets/daisy-hero.webp",
     "video": "https://www.youtube.com/embed/LkjH3MpiAWY",
     "videoUrl": "https://www.youtube.com/watch?v=LkjH3MpiAWY",
     "videoUrls": [
@@ -980,13 +980,13 @@ const projects = [
       ]
     ],
     "stills": [
-      "assets/daisy-still-01.png",
-      "assets/daisy-still-02.png",
-      "assets/daisy-still-03.png",
-      "assets/daisy-still-04.png",
-      "assets/daisy-still-05.png",
-      "assets/daisy-still-06.png",
-      "assets/daisy-still-07.png"
+      "assets/daisy-still-01.webp",
+      "assets/daisy-still-02.webp",
+      "assets/daisy-still-03.webp",
+      "assets/daisy-still-04.webp",
+      "assets/daisy-still-05.webp",
+      "assets/daisy-still-06.webp",
+      "assets/daisy-still-07.webp"
     ]
   },
   {
@@ -998,8 +998,8 @@ const projects = [
     "roles": [
       "Director of Photography"
     ],
-    "thumbnail": "assets/m-art-thumb.png",
-    "hero": "assets/m-art-hero.png",
+    "thumbnail": "assets/m-art-thumb.webp",
+    "hero": "assets/m-art-hero.webp",
     "video": "https://www.youtube.com/embed/Mt3y1qYNq8s",
     "videoUrl": "https://www.youtube.com/watch?v=Mt3y1qYNq8s",
     "videoUrls": [
@@ -1023,18 +1023,18 @@ const projects = [
       ]
     ],
     "stills": [
-      "assets/m-art-still-01.png",
-      "assets/m-art-still-02.png",
-      "assets/m-art-still-03.png",
-      "assets/m-art-still-04.png",
-      "assets/m-art-still-06.png",
-      "assets/m-art-still-07.png",
-      "assets/m-art-still-08.png",
-      "assets/m-art-still-09.png",
-      "assets/m-art-still-10.png",
-      "assets/m-art-still-11.png",
-      "assets/m-art-still-12.png",
-      "assets/m-art-still-13.png"
+      "assets/m-art-still-01.webp",
+      "assets/m-art-still-02.webp",
+      "assets/m-art-still-03.webp",
+      "assets/m-art-still-04.webp",
+      "assets/m-art-still-06.webp",
+      "assets/m-art-still-07.webp",
+      "assets/m-art-still-08.webp",
+      "assets/m-art-still-09.webp",
+      "assets/m-art-still-10.webp",
+      "assets/m-art-still-11.webp",
+      "assets/m-art-still-12.webp",
+      "assets/m-art-still-13.webp"
     ]
   },
   {
@@ -1046,8 +1046,8 @@ const projects = [
     "roles": [
       "Director of Photography"
     ],
-    "thumbnail": "assets/whale-thumb.png",
-    "hero": "assets/whale-hero.png",
+    "thumbnail": "assets/whale-thumb.webp",
+    "hero": "assets/whale-hero.webp",
     "video": "https://youtu.be/dC1KdPT3snM",
     "videoUrl": "https://youtu.be/dC1KdPT3snM",
     "videoUrls": [
@@ -1074,20 +1074,20 @@ const projects = [
       ]
     ],
     "stills": [
-      "assets/whale-still-01.png",
-      "assets/whale-still-02.png",
-      "assets/whale-still-03.png",
-      "assets/whale-still-04.png",
-      "assets/whale-still-05.png",
-      "assets/whale-still-06.png",
-      "assets/whale-still-07.png",
-      "assets/whale-still-08.png",
-      "assets/whale-still-09.png",
-      "assets/whale-still-10.png",
-      "assets/whale-still-11.png",
-      "assets/whale-still-12.png",
-      "assets/whale-still-13.png",
-      "assets/whale-still-14.png"
+      "assets/whale-still-01.webp",
+      "assets/whale-still-02.webp",
+      "assets/whale-still-03.webp",
+      "assets/whale-still-04.webp",
+      "assets/whale-still-05.webp",
+      "assets/whale-still-06.webp",
+      "assets/whale-still-07.webp",
+      "assets/whale-still-08.webp",
+      "assets/whale-still-09.webp",
+      "assets/whale-still-10.webp",
+      "assets/whale-still-11.webp",
+      "assets/whale-still-12.webp",
+      "assets/whale-still-13.webp",
+      "assets/whale-still-14.webp"
     ]
   },
   {
@@ -1100,8 +1100,8 @@ const projects = [
       "Director of Photography",
       "Color Grading"
     ],
-    "thumbnail": "assets/dance-thumb.png",
-    "hero": "assets/dance-hero.png",
+    "thumbnail": "assets/dance-thumb.webp",
+    "hero": "assets/dance-hero.webp",
     "video": "https://www.youtube.com/embed/8xmBHHLKKm4",
     "videoUrl": "https://youtu.be/8xmBHHLKKm4?si=froHMxVarBKsFetl",
     "videoUrls": [
@@ -1139,8 +1139,8 @@ const projects = [
     "roles": [
       "Director of Photography"
     ],
-    "thumbnail": "assets/alien-thumb.png",
-    "hero": "assets/alien-hero.png",
+    "thumbnail": "assets/alien-thumb.webp",
+    "hero": "assets/alien-hero.webp",
     "video": "https://www.youtube.com/embed/PeAEbqXxeq4",
     "videoUrl": "https://www.youtube.com/watch?v=PeAEbqXxeq4",
     "videoUrls": [
@@ -1164,30 +1164,30 @@ const projects = [
       ]
     ],
     "stills": [
-      "assets/alien-still-01.png",
-      "assets/alien-still-02.png",
-      "assets/alien-still-03.png",
-      "assets/alien-still-04.png",
-      "assets/alien-still-05.png",
-      "assets/alien-still-06.png",
-      "assets/alien-still-07.png",
-      "assets/alien-still-08.png",
-      "assets/alien-still-09.png",
-      "assets/alien-still-10.png",
-      "assets/alien-still-11.png",
-      "assets/alien-still-12.png",
-      "assets/alien-still-13.png",
-      "assets/alien-still-14.png",
-      "assets/alien-still-15.png",
-      "assets/alien-still-16.png",
-      "assets/alien-still-17.png",
-      "assets/alien-still-18.png",
-      "assets/alien-still-19.png",
-      "assets/alien-still-20.png",
-      "assets/alien-still-21.png",
-      "assets/alien-still-22.png",
-      "assets/alien-still-23.png",
-      "assets/alien-still-24.png"
+      "assets/alien-still-01.webp",
+      "assets/alien-still-02.webp",
+      "assets/alien-still-03.webp",
+      "assets/alien-still-04.webp",
+      "assets/alien-still-05.webp",
+      "assets/alien-still-06.webp",
+      "assets/alien-still-07.webp",
+      "assets/alien-still-08.webp",
+      "assets/alien-still-09.webp",
+      "assets/alien-still-10.webp",
+      "assets/alien-still-11.webp",
+      "assets/alien-still-12.webp",
+      "assets/alien-still-13.webp",
+      "assets/alien-still-14.webp",
+      "assets/alien-still-15.webp",
+      "assets/alien-still-16.webp",
+      "assets/alien-still-17.webp",
+      "assets/alien-still-18.webp",
+      "assets/alien-still-19.webp",
+      "assets/alien-still-20.webp",
+      "assets/alien-still-21.webp",
+      "assets/alien-still-22.webp",
+      "assets/alien-still-23.webp",
+      "assets/alien-still-24.webp"
     ]
   },
   {
@@ -1199,8 +1199,8 @@ const projects = [
     "roles": [
       "Director of Photography"
     ],
-    "thumbnail": "assets/childlike-thumb.png",
-    "hero": "assets/childlike-hero.png",
+    "thumbnail": "assets/childlike-thumb.webp",
+    "hero": "assets/childlike-hero.webp",
     "video": "https://www.youtube.com/embed/G_EE0ztxZfA",
     "videoUrl": "https://www.youtube.com/watch?v=G_EE0ztxZfA",
     "videoUrls": [
@@ -1224,8 +1224,8 @@ const projects = [
       ]
     ],
     "stills": [
-      "assets/childlike-still-01.png",
-      "assets/childlike-still-02.png"
+      "assets/childlike-still-01.webp",
+      "assets/childlike-still-02.webp"
     ]
   },
   {
@@ -1238,8 +1238,8 @@ const projects = [
       "Camera Crew",
       "Color Grading"
     ],
-    "thumbnail": "assets/mackerel-thumb.png",
-    "hero": "assets/mackerel-hero.png",
+    "thumbnail": "assets/mackerel-thumb.webp",
+    "hero": "assets/mackerel-hero.webp",
     "video": "",
     "videoUrl": "https://www.instagram.com/reel/C-IKLCkv4_Y/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     "videoUrls": [
@@ -1271,9 +1271,9 @@ const projects = [
       ]
     ],
     "stills": [
-      "assets/mackerel-still-01.png",
-      "assets/mackerel-still-02.png",
-      "assets/mackerel-still-03.png"
+      "assets/mackerel-still-01.webp",
+      "assets/mackerel-still-02.webp",
+      "assets/mackerel-still-03.webp"
     ]
   },
   {
@@ -1285,8 +1285,8 @@ const projects = [
     "roles": [
       "Camera Crew"
     ],
-    "thumbnail": "assets/rang-thumb.png",
-    "hero": "assets/rang-hero.png",
+    "thumbnail": "assets/rang-thumb.webp",
+    "hero": "assets/rang-hero.webp",
     "video": "https://youtu.be/J-DTlOViRWw?si=nmhC6_aX9L-zXLhu",
     "videoUrl": "https://youtu.be/J-DTlOViRWw?si=nmhC6_aX9L-zXLhu",
     "videoUrls": [
@@ -1314,17 +1314,17 @@ const projects = [
       ]
     ],
     "stills": [
-      "assets/rang-still-01.png",
-      "assets/rang-still-02.png",
-      "assets/rang-still-03.png",
-      "assets/rang-still-04.png",
-      "assets/rang-still-05.png",
-      "assets/rang-still-06.png",
-      "assets/rang-still-07.png",
-      "assets/rang-still-08.png",
-      "assets/rang-still-09.png",
-      "assets/rang-still-10.png",
-      "assets/rang-still-11.png"
+      "assets/rang-still-01.webp",
+      "assets/rang-still-02.webp",
+      "assets/rang-still-03.webp",
+      "assets/rang-still-04.webp",
+      "assets/rang-still-05.webp",
+      "assets/rang-still-06.webp",
+      "assets/rang-still-07.webp",
+      "assets/rang-still-08.webp",
+      "assets/rang-still-09.webp",
+      "assets/rang-still-10.webp",
+      "assets/rang-still-11.webp"
     ]
   },
   {
@@ -1336,8 +1336,8 @@ const projects = [
     "roles": [
       "Camera Crew"
     ],
-    "thumbnail": "assets/romance-literacy-thumb.png",
-    "hero": "assets/romance-literacy-hero.png",
+    "thumbnail": "assets/romance-literacy-thumb.webp",
+    "hero": "assets/romance-literacy-hero.webp",
     "video": "https://youtu.be/z1Vx4xL01xE?si=GnIP6JhKB4RegS-D",
     "videoUrl": "https://youtu.be/z1Vx4xL01xE?si=GnIP6JhKB4RegS-D",
     "videoUrls": [
@@ -1365,13 +1365,13 @@ const projects = [
       ]
     ],
     "stills": [
-      "assets/romance-literacy-still-01.png",
-      "assets/romance-literacy-still-02.png",
-      "assets/romance-literacy-still-03.png",
-      "assets/romance-literacy-still-04.png",
-      "assets/romance-literacy-still-05.png",
-      "assets/romance-literacy-still-06.png",
-      "assets/romance-literacy-still-07.png"
+      "assets/romance-literacy-still-01.webp",
+      "assets/romance-literacy-still-02.webp",
+      "assets/romance-literacy-still-03.webp",
+      "assets/romance-literacy-still-04.webp",
+      "assets/romance-literacy-still-05.webp",
+      "assets/romance-literacy-still-06.webp",
+      "assets/romance-literacy-still-07.webp"
     ]
   },
   {
@@ -1383,8 +1383,8 @@ const projects = [
     "roles": [
       "Production"
     ],
-    "thumbnail": "assets/myname-thumb.png",
-    "hero": "assets/myname-hero.png",
+    "thumbnail": "assets/myname-thumb.webp",
+    "hero": "assets/myname-hero.webp",
     "video": "https://www.youtube.com/embed/y6M452ShNPE",
     "videoUrl": "https://youtu.be/y6M452ShNPE?si=nuW0ca_S2UEDduh3",
     "videoUrls": [
@@ -1408,12 +1408,12 @@ const projects = [
       ]
     ],
     "stills": [
-      "assets/myname-still-01.png",
-      "assets/myname-still-02.png",
-      "assets/myname-still-03.png",
-      "assets/myname-still-04.png",
-      "assets/myname-still-05.png",
-      "assets/myname-still-06.png"
+      "assets/myname-still-01.webp",
+      "assets/myname-still-02.webp",
+      "assets/myname-still-03.webp",
+      "assets/myname-still-04.webp",
+      "assets/myname-still-05.webp",
+      "assets/myname-still-06.webp"
     ]
   },
   {
@@ -1425,8 +1425,8 @@ const projects = [
     "roles": [
       "Event Broadcasting"
     ],
-    "thumbnail": "assets/2024-광주시-어린이날-가족축제-thumb.png",
-    "hero": "assets/2024-광주시-어린이날-가족축제-hero.png",
+    "thumbnail": "assets/2024-gwangjusi-eorininal-gajogcugje-thumb.webp",
+    "hero": "assets/2024-gwangjusi-eorininal-gajogcugje-hero.webp",
     "video": "",
     "videoUrl": "",
     "videoUrls": [],
@@ -1458,8 +1458,8 @@ const projects = [
     "roles": [
       "Event Broadcasting"
     ],
-    "thumbnail": "assets/2024-광주시-음식문화축제-thumb.png",
-    "hero": "assets/2024-광주시-음식문화축제-hero.png",
+    "thumbnail": "assets/2024-gwangjusi-eumsigmunhwacugje-thumb.webp",
+    "hero": "assets/2024-gwangjusi-eumsigmunhwacugje-hero.webp",
     "video": "",
     "videoUrl": "",
     "videoUrls": [],
@@ -1493,8 +1493,8 @@ const projects = [
     "roles": [
       "Event Broadcasting"
     ],
-    "thumbnail": "assets/2024-ampers-one-fan-meeting-dear-my-first-thumb.png",
-    "hero": "assets/2024-ampers-one-fan-meeting-dear-my-first-hero.png",
+    "thumbnail": "assets/2024-ampers-one-fan-meeting-dear-my-first-thumb.webp",
+    "hero": "assets/2024-ampers-one-fan-meeting-dear-my-first-hero.webp",
     "video": "",
     "videoUrl": "",
     "videoUrls": [],
@@ -1526,8 +1526,8 @@ const projects = [
     "roles": [
       "Event Broadcasting"
     ],
-    "thumbnail": "assets/2024-인천광역시-이장-통장-소양교육-still-05.webp",
-    "hero": "assets/2024-인천광역시-이장-통장-소양교육-still-02.webp",
+    "thumbnail": "assets/2024-inceongwangyeogsi-ijang-tongjang-soyanggyoyug-still-05.webp",
+    "hero": "assets/2024-inceongwangyeogsi-ijang-tongjang-soyanggyoyug-still-02.webp",
     "video": "",
     "videoUrl": "",
     "videoUrls": [],
@@ -1549,11 +1549,11 @@ const projects = [
       ]
     ],
     "stills": [
-      "assets/2024-인천광역시-이장-통장-소양교육-still-01.webp",
-      "assets/2024-인천광역시-이장-통장-소양교육-still-02.webp",
-      "assets/2024-인천광역시-이장-통장-소양교육-still-03.webp",
-      "assets/2024-인천광역시-이장-통장-소양교육-still-04.webp",
-      "assets/2024-인천광역시-이장-통장-소양교육-still-05.webp"
+      "assets/2024-inceongwangyeogsi-ijang-tongjang-soyanggyoyug-still-01.webp",
+      "assets/2024-inceongwangyeogsi-ijang-tongjang-soyanggyoyug-still-02.webp",
+      "assets/2024-inceongwangyeogsi-ijang-tongjang-soyanggyoyug-still-03.webp",
+      "assets/2024-inceongwangyeogsi-ijang-tongjang-soyanggyoyug-still-04.webp",
+      "assets/2024-inceongwangyeogsi-ijang-tongjang-soyanggyoyug-still-05.webp"
     ]
   },
   {
@@ -1565,8 +1565,8 @@ const projects = [
     "roles": [
       "Camera Crew"
     ],
-    "thumbnail": "assets/sun-rise-thumb.png",
-    "hero": "assets/sun-rise-hero.png",
+    "thumbnail": "assets/sun-rise-thumb.webp",
+    "hero": "assets/sun-rise-hero.webp",
     "video": "https://youtu.be/3A6OOsa11a8?si=oXfm49tqpZPrsKRu",
     "videoUrl": "https://youtu.be/3A6OOsa11a8?si=oXfm49tqpZPrsKRu",
     "videoUrls": [
@@ -1604,8 +1604,8 @@ const projects = [
     "roles": [
       "Camera Crew"
     ],
-    "thumbnail": "assets/from-yerim-thumb.png",
-    "hero": "assets/from-yerim-hero.png",
+    "thumbnail": "assets/from-yerim-thumb.webp",
+    "hero": "assets/from-yerim-hero.webp",
     "video": "",
     "videoUrl": "",
     "videoUrls": [],
@@ -1631,10 +1631,10 @@ const projects = [
       ]
     ],
     "stills": [
-      "assets/from-yerim-still-01.png",
-      "assets/from-yerim-still-02.png",
-      "assets/from-yerim-still-03.png",
-      "assets/from-yerim-still-04.png"
+      "assets/from-yerim-still-01.webp",
+      "assets/from-yerim-still-02.webp",
+      "assets/from-yerim-still-03.webp",
+      "assets/from-yerim-still-04.webp"
     ]
   }
 ];

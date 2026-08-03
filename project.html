@@ -1888,7 +1888,7 @@ footer,
   </div>
 
   <section id="projectMedia" class="project-media">
-    <img id="projectHero" src="" alt="">
+    <img loading="lazy" decoding="async" id="projectHero" src="" alt="">
   </section>
 
   <div id="projectWatchLinks" class="project-watch-links"></div>
@@ -1936,7 +1936,7 @@ footer,
 <div class="project-lightbox" id="projectLightbox" aria-hidden="true">
   <button class="lightbox-close" id="lightboxClose" type="button" aria-label="Close">×</button>
   <button class="lightbox-arrow lightbox-prev" id="lightboxPrev" type="button" aria-label="Previous image">←</button>
-  <img id="lightboxImage" src="" alt="">
+  <img loading="lazy" decoding="async" id="lightboxImage" src="" alt="">
   <button class="lightbox-arrow lightbox-next" id="lightboxNext" type="button" aria-label="Next image">→</button>
 </div>
 </main>
@@ -2001,7 +2001,7 @@ document.getElementById('projectDescription').textContent = project.description 
 
     media.innerHTML = `
       <div class="project-video-poster">
-        <img src="${imageSrc}" alt="${project.title} project still">
+        <img loading="lazy" decoding="async" src="${imageSrc}" alt="${project.title} project still">
       </div>
     `;
   }
@@ -2075,7 +2075,7 @@ document.getElementById('projectDescription').textContent = project.description 
   const stills = project.stills || [];
   document.getElementById('projectStills').innerHTML = stills.map((src, i) => `
     <button type="button" data-index="${i}" aria-label="Open still ${i + 1}">
-      <img src="${src}" alt="${project.title} still ${i + 1}">
+      <img loading="lazy" decoding="async" src="${src}" alt="${project.title} still ${i + 1}">
     </button>
   `).join('');
 
