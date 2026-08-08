@@ -3,15 +3,15 @@
 @import url("https://api.fontshare.com/v2/css?f[]=general-sans@300,400,500,600,700&display=swap");
 
 :root{
-  --bg:#F2F2F5;--paper:#fff;--ink:#101827;--muted:#707887;
-  --blue:#173B78;--line:#D9DEE7;
+  --bg:#080808;--paper:#0D0D0D;--ink:#F2F2F0;--muted:#858585;
+  --blue:#3A68FF;--line:#242424;
 }
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
 body{font-family:'Inter',Arial,Helvetica,sans-serif;background:var(--bg);color:var(--ink);overflow-x:hidden}
 a{text-decoration:none;color:inherit}button{font:inherit}
 .cursor{position:fixed;width:320px;height:320px;border-radius:50%;pointer-events:none;z-index:0;transform:translate(-50%,-50%);background:radial-gradient(circle,rgba(23,59,120,.1),rgba(23,59,120,0) 70%)}
-header{position:fixed;inset:0 0 auto;z-index:50;display:grid;grid-template-columns:auto 1fr;align-items:center;padding:20px 4vw;column-gap:32px;background:rgba(242,242,245,.84);backdrop-filter:blur(18px);border-bottom:1px solid rgba(217,222,231,.8)}
+header{position:fixed;inset:0 0 auto;z-index:50;display:grid;grid-template-columns:auto 1fr;align-items:center;padding:20px 4vw;column-gap:32px;background:rgba(8,8,8,.84);backdrop-filter:blur(18px);border-bottom:1px solid rgba(217,222,231,.8)}
 .brand{font-size:22px;font-weight:800;letter-spacing:-.05em;color:var(--blue)}
 nav{display:flex;justify-content:flex-end;gap:42px;font-size:10px;letter-spacing:.16em;width:100%}
 nav a{position:relative}nav a:after{content:"";position:absolute;left:0;right:100%;bottom:-7px;height:1px;background:var(--blue);transition:.35s}
@@ -57,11 +57,11 @@ footer a{
  justify-content:center;
  width:18px;
  height:18px;
- color:#111827;
+ color:#A8A8A8;
  transition:color .3s ease, transform .3s ease;
 }
 footer a:hover{
- color:#173B78;
+ color:#3A68FF;
  transform:translateY(-3px);
 }
 footer svg{
@@ -81,7 +81,7 @@ header{
 header.header-scrolled{
   padding-top:10px;
   padding-bottom:10px;
-  background:rgba(242,242,245,.94);
+  background:rgba(8,8,8,.94);
   backdrop-filter:blur(24px);
   box-shadow:0 8px 30px rgba(16,24,39,.055);
 }
@@ -100,7 +100,7 @@ footer{
   bottom:0;
   z-index:40;
   padding:14px 4vw 16px;
-  background:linear-gradient(to top,rgba(242,242,245,.98),rgba(242,242,245,.86),rgba(242,242,245,0));
+  background:linear-gradient(to top,rgba(8,8,8,.98),rgba(8,8,8,.90),rgba(8,8,8,0));
   border-top:0;
   pointer-events:none;
 }
@@ -116,7 +116,7 @@ main{
 /* v8.7 footer divider */
 footer{
   border-top:1px solid rgba(112,120,135,.28);
-  background:rgba(242,242,245,.96);
+  background:rgba(8,8,8,.96);
   backdrop-filter:blur(14px);
 }
 
@@ -372,7 +372,7 @@ footer,
 
 .work-filter{
   appearance:none;
-  border:1px solid #d8dce5 !important;
+  border:1px solid #303030 !important;
   background:transparent !important;
   border-radius:999px;
   padding:13px 22px !important;
@@ -582,7 +582,7 @@ footer,
 
 .work-thumb{
   border-radius:8px !important;
-  background:#eceff3;
+  background:#101010;
 }
 
 .work-thumb::after{
@@ -772,7 +772,7 @@ footer,
   aspect-ratio:16/9;
   overflow:hidden;
   border-radius:8px;
-  background:#dfe4eb;
+  background:#101010;
 }
 .selected-card img{
   display:block;
@@ -872,6 +872,73 @@ footer,
   .selected-card-title{
     font-size:23px;
   }
+}
+
+
+
+/* WORK native cinematic-black fallback */
+html,
+body{
+  background:#080808 !important;
+  color:#F2F2F0 !important;
+}
+main,
+.work-index,
+.all-projects-section,
+.selected-section{
+  background:#080808 !important;
+}
+header{
+  background:rgba(8,8,8,.84) !important;
+  border-bottom-color:#242424 !important;
+}
+header.header-scrolled{
+  background:rgba(8,8,8,.94) !important;
+}
+.brand{color:#F5F5F3 !important}
+nav a{color:#888 !important}
+nav a:hover,
+nav a.active{color:#fff !important}
+.work-page-heading h1,
+.work-card-info h2{
+  color:#F2F2F0 !important;
+}
+.work-page-heading p,
+.work-meta-line{
+  color:#858585 !important;
+}
+.work-section-head h2,
+.work-role-line{
+  color:#3A68FF !important;
+}
+.selected-section{
+  border-bottom-color:#242424 !important;
+}
+.work-filter{
+  color:#A0A0A0 !important;
+  border-color:#303030 !important;
+  background:transparent !important;
+}
+.work-filter:hover{
+  color:#fff !important;
+  border-color:#565656 !important;
+}
+.work-filter.active{
+  color:#fff !important;
+  border-color:#3A68FF !important;
+  background:transparent !important;
+}
+.work-thumb,
+.selected-card{
+  background:#101010 !important;
+}
+footer{
+  background:rgba(8,8,8,.96) !important;
+  border-top:1px solid #242424 !important;
+  color:#707070 !important;
+}
+footer a{
+  color:#A8A8A8 !important;
 }
 
 </style><link rel="stylesheet" href="cinematic.css">
