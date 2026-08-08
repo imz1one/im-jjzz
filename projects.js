@@ -1,20 +1,23 @@
 const projects = [
   {
-    "id": "방주-heterotopia",
+    "id": "heterotopia",
     "title": "방주: HETEROTOPIA",
     "year": "Jul 2026",
     "type": "Behind the Scenes",
     "duration": "",
     "roles": [
-      "Director of Photography"
+      "Director of Photography",
+      "Color Grading"
     ],
-    "thumbnail": "assets/bangju-heterotopia-title.webp",
-    "hero": "assets/bangju-heterotopia-title.webp",
-    "video": "",
-    "videoUrl": "",
-    "videoUrls": [],
+    "thumbnail": "assets/heterotopia-thumb.webp",
+    "hero": "assets/heterotopia-hero.webp",
+    "video": "https://youtu.be/GYwBPmgaL70",
+    "videoUrl": "https://youtu.be/GYwBPmgaL70",
+    "videoUrls": [
+      "https://youtu.be/GYwBPmgaL70"
+    ],
     "description": "2026 뉴폼아트(젊은창작) 콘텐츠 제작 선정작\n⟪방주: HETEROTOPIA⟫\n\nInteractive MediaArt Exhibition & Immersive Performance",
-    "roleDetail": "Director of Photography",
+    "roleDetail": "Director of Photography\nColor Grading",
     "contribution": [],
     "camera": "",
     "lens": "",
@@ -31,7 +34,20 @@ const projects = [
       ]
     ],
     "stills": [
-      "assets/bangju-heterotopia-still-01.webp"
+      "assets/heterotopia-still-01.jpg",
+      "assets/heterotopia-still-02.webp",
+      "assets/heterotopia-still-03.webp",
+      "assets/heterotopia-still-04.webp",
+      "assets/heterotopia-still-05.webp",
+      "assets/heterotopia-still-06.webp",
+      "assets/heterotopia-still-07.webp",
+      "assets/heterotopia-still-08.webp",
+      "assets/heterotopia-still-09.webp",
+      "assets/heterotopia-still-10.webp",
+      "assets/heterotopia-still-11.webp",
+      "assets/heterotopia-still-12.webp",
+      "assets/heterotopia-still-13.webp",
+      "assets/heterotopia-still-14.webp"
     ]
   },
   {
@@ -546,13 +562,13 @@ const projects = [
     "id": "여전히-찬란하게",
     "title": "여전히 찬란하게",
     "year": "Dec 2025",
-    "type": "Feature Film",
+    "type": "Film",
     "duration": "",
     "roles": [
       "DIT"
     ],
-    "thumbnail": "assets/yeojeonhi-chanranhage-title.webp",
-    "hero": "assets/yeojeonhi-chanranhage-title.webp",
+    "thumbnail": "assets/yeojeonhi-chanranhage-designed.webp",
+    "hero": "assets/yeojeonhi-chanranhage-designed.webp",
     "video": "",
     "videoUrl": "",
     "videoUrls": [],
@@ -1638,3 +1654,4 @@ const projects = [
     ]
   }
 ];
+window.projects = projects;
