@@ -1898,9 +1898,9 @@ footer,
 
         <div id="projectWatchLinks" class="project-watch-links project-watch-links-cinematic"></div>
 
-        <section id="projectTechnicalSectionDesktop" class="project-technical-left project-technical-desktop" hidden>
+        <section id="projectTechnicalSection" class="project-technical-left" hidden>
           <span class="project-label">TECHNICAL INFO</span>
-          <div id="projectTechnicalDesktop" class="project-technical project-technical-cinematic"></div>
+          <div id="projectTechnical" class="project-technical project-technical-cinematic"></div>
         </section>
       </section>
 
@@ -1921,11 +1921,6 @@ footer,
         <section id="projectCreditsSection" class="project-info-section">
           <span class="project-label">CREDITS</span>
           <div id="projectCredits" class="project-credits project-credits-cinematic"></div>
-        </section>
-
-        <section id="projectTechnicalSectionMobile" class="project-info-section project-technical-mobile" hidden>
-          <span class="project-label">TECHNICAL INFO</span>
-          <div id="projectTechnicalMobile" class="project-technical project-technical-cinematic"></div>
         </section>
       </aside>
     </div>
@@ -2107,25 +2102,47 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   if (technicalRows.length) {
-    const technicalMarkup = technicalRows.map(([label, value]) => `
-      <div class="project-tech-row"><span>${label}</span><span>${String(value)}</span></div>
-    `).join('');
+    const technicalSection = document.getElementById('projectTechnicalSection');
+    const technicalContent = document.getElementById('projectTechnical');
 
-    const desktopSection = document.getElementById('projectTechnicalSectionDesktop');
-    const mobileSection = document.getElementById('projectTechnicalSectionMobile');
-    const desktopContent = document.getElementById('projectTechnicalDesktop');
-    const mobileContent = document.getElementById('projectTechnicalMobile');
-
-    if (desktopSection && desktopContent) {
-      desktopSection.hidden = false;
-      desktopContent.innerHTML = technicalMarkup;
-    }
-
-    if (mobileSection && mobileContent) {
-      mobileSection.hidden = false;
-      mobileContent.innerHTML = technicalMarkup;
+    if (technicalSection && technicalContent) {
+      technicalSection.hidden = false;
+      technicalContent.innerHTML = technicalRows.map(([label, value]) => `
+        <div class="project-tech-row"><span>${label}</span><span>${String(value)}</span></div>
+      `).join('');
     }
   }
+
+  // Move the SAME Technical Info block depending on viewport.
+  // Desktop: below gallery / YouTube buttons.
+  // Mobile: after Credits, so the reading order is
+  // Title → Meta → Role → About → Credits → Technical Info.
+  const technicalSection = document.getElementById('projectTechnicalSection');
+  const visualColumn = document.querySelector('.project-visual-column');
+  const watchLinksElement = document.getElementById('projectWatchLinks');
+  const creditsSection = document.getElementById('projectCreditsSection');
+
+  const placeTechnicalInfo = () => {
+    if (!technicalSection) return;
+
+    if (window.matchMedia('(max-width: 860px)').matches) {
+      technicalSection.classList.remove('project-technical-left');
+      technicalSection.classList.add('project-info-section');
+      if (creditsSection) {
+        creditsSection.insertAdjacentElement('afterend', technicalSection);
+      }
+    } else {
+      technicalSection.classList.remove('project-info-section');
+      technicalSection.classList.add('project-technical-left');
+      if (visualColumn && watchLinksElement) {
+        watchLinksElement.insertAdjacentElement('afterend', technicalSection);
+      }
+    }
+  };
+
+  placeTechnicalInfo();
+  window.addEventListener('resize', placeTechnicalInfo);
+
 
   const previous = projects[(index - 1 + projects.length) % projects.length];
   const next = projects[(index + 1) % projects.length];
