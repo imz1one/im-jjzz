@@ -275,7 +275,10 @@ function normalizeProject(project={}){
     contribution: Array.isArray(project.contribution) ? project.contribution : [],
     camera: project.camera || '',
     lens: project.lens || '',
+    filter: project.filter || '',
     format: project.format || '',
+    color: project.color || '',
+    aspectRatio: project.aspectRatio || '',
     featured: Boolean(project.featured),
     credits: Array.isArray(project.credits) ? project.credits : [],
     stills: Array.isArray(project.stills) ? project.stills : []
@@ -603,8 +606,11 @@ function renderEditor(){
       <h3>TECHNICAL</h3>
       <div class="grid three">
         <div class="field"><label>Camera</label><input data-field="camera" value="${esc(p.camera)}" placeholder="Sony FX3"></div>
-        <div class="field"><label>Lens</label><input data-field="lens" value="${esc(p.lens)}" placeholder="Sigma 24–70mm"></div>
-        <div class="field"><label>Format</label><input data-field="format" value="${esc(p.format)}" placeholder="4K XAVC S-I"></div>
+        <div class="field"><label>Lens</label><input data-field="lens" value="${esc(p.lens)}" placeholder="Sigma 24–70mm F2.8"></div>
+        <div class="field"><label>Filter</label><input data-field="filter" value="${esc(p.filter)}" placeholder="Tiffen Black Pro-Mist 1/4"></div>
+        <div class="field"><label>Format</label><input data-field="format" value="${esc(p.format)}" placeholder="4K UHD / XAVC S-I"></div>
+        <div class="field"><label>Color</label><input data-field="color" value="${esc(p.color)}" placeholder="S-Log3 / DaVinci Resolve"></div>
+        <div class="field"><label>Aspect Ratio</label><input data-field="aspectRatio" value="${esc(p.aspectRatio)}" placeholder="2.39:1"></div>
       </div>
     </section>
   `;

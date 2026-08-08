@@ -1,0 +1,48 @@
+{
+  "source": "user-uploaded latest five public HTML files",
+  "theme": "cinematic black",
+  "fixes": [
+    "project.html: page title About → Project",
+    "project.html: active navigation ABOUT → WORK"
+  ],
+  "javascript_check": {
+    "index.html": "PASS",
+    "about.html": "PASS",
+    "work.html": "PASS",
+    "project.html": "PASS",
+    "contact.html": "PASS"
+  },
+  "html_structure_check": {
+    "index.html": {
+      "doctype": true,
+      "html_close": true,
+      "body_close": true,
+      "title": true
+    },
+    "about.html": {
+      "doctype": true,
+      "html_close": true,
+      "body_close": true,
+      "title": true
+    },
+    "work.html": {
+      "doctype": true,
+      "html_close": true,
+      "body_close": true,
+      "title": true
+    },
+    "project.html": {
+      "doctype": true,
+      "html_close": true,
+      "body_close": true,
+      "title": true
+    },
+    "contact.html": {
+      "doctype": true,
+      "html_close": true,
+      "body_close": true,
+      "title": true
+    }
+  },
+  "internal_html_reference_warnings": []
+}

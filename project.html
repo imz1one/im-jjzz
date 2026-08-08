@@ -1,4 +1,4 @@
-<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>im.jjzz — About</title><style>
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>im.jjzz — Project</title><style>
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
 @import url("https://api.fontshare.com/v2/css?f[]=general-sans@300,400,500,600,700&display=swap");
 
@@ -1856,14 +1856,15 @@ footer,
   }
 }
 
-</style></head><body>
+</style><link rel="stylesheet" href="cinematic.css">
+</head><body>
 <div class="cursor"></div>
 <header>
 <a href="index.html" class="brand">im.jjzz</a>
 <nav>
 <a href="index.html" class="">HOME</a>
-<a href="about.html" class="active">ABOUT</a>
-<a href="work.html" class="">WORK</a>
+<a href="about.html" class="">ABOUT</a>
+<a href="work.html" class="active">WORK</a>
 <a href="contact.html" class="">CONTACT</a>
 </nav>
 
@@ -1876,60 +1877,64 @@ footer,
 
 
 <main>
-<section class="project-page">
-  <a class="project-back" href="work.html">← BACK TO WORK</a>
+<section class="project-page project-detail-cinematic">
+  <div class="project-detail-shell">
+    <a class="project-back" href="work.html">← BACK TO WORK</a>
 
-  <div class="project-content-frame">
-  <div class="project-intro">
-    <div>
-      <h1 id="projectTitle">PROJECT</h1>
-      <p id="projectMeta" class="project-meta"></p>
+    <div class="project-detail-grid">
+      <section class="project-visual-column" aria-label="Project visuals">
+        <div id="projectHeroButton" class="project-hero-frame" aria-label="Project image viewer">
+          <img id="projectHeroImage" loading="eager" decoding="async" src="" alt="">
+          <button class="project-hero-zone project-hero-zone-left" id="projectHeroPrev" type="button" aria-label="Previous image"></button>
+          <button class="project-hero-zone project-hero-zone-center" id="projectHeroZoom" type="button" aria-label="Enlarge image"></button>
+          <button class="project-hero-zone project-hero-zone-right" id="projectHeroNext" type="button" aria-label="Next image"></button>
+        </div>
+
+        <div class="project-thumb-row-wrap">
+          <button class="project-thumb-nav prev" id="projectThumbPrev" type="button" aria-label="Previous thumbnails">←</button>
+          <div id="projectStills" class="project-thumb-row"></div>
+          <button class="project-thumb-nav next" id="projectThumbNext" type="button" aria-label="Next thumbnails">→</button>
+        </div>
+
+        <div id="projectWatchLinks" class="project-watch-links project-watch-links-cinematic"></div>
+
+        <section id="projectTechnicalSection" class="project-technical-left" hidden>
+          <span class="project-label">TECHNICAL INFO</span>
+          <div id="projectTechnical" class="project-technical project-technical-cinematic"></div>
+        </section>
+      </section>
+
+      <aside class="project-info-column">
+        <div class="project-info-head">
+          <h1 id="projectTitle">PROJECT</h1>
+          <p id="projectMeta" class="project-meta"></p>
+          <p id="projectDuration" class="project-duration"></p>
+          <span class="project-label project-role-label">ROLE</span>
+          <p id="projectRoleDetail" class="project-role-detail"></p>
+        </div>
+
+        <section class="project-info-section">
+          <span class="project-label">ABOUT</span>
+          <p id="projectDescription" class="project-description-cinematic"></p>
+        </section>
+
+        <section id="projectCreditsSection" class="project-info-section">
+          <span class="project-label">CREDITS</span>
+          <div id="projectCredits" class="project-credits project-credits-cinematic"></div>
+        </section>
+      </aside>
     </div>
-  </div>
 
-  <section id="projectMedia" class="project-media">
-    <img loading="lazy" decoding="async" id="projectHero" src="" alt="">
-  </section>
-
-  <div id="projectWatchLinks" class="project-watch-links"></div>
-
-  <section class="project-overview">
-    <div class="project-copy">
-      <span class="project-label">ABOUT</span>
-      <p id="projectDescription"></p>
-    </div>
-
-    <div class="project-side">
-      <span class="project-label">ROLE</span>
-      <p id="projectRoleDetail"></p>
-    </div>
-  </section>
-
-  <section id="projectTechnicalSection" class="project-technical-section" hidden>
-    <span class="project-label">PROJECT DETAILS</span>
-    <div id="projectTechnical" class="project-technical"></div>
-  </section>
-
-  <section class="project-credits-section">
-    <span class="project-label">CREDITS</span>
-    <div id="projectCredits" class="project-credits"></div>
-  </section>
-
-  <section class="project-gallery-section">
-    <span class="project-label">GALLERY</span>
-    <div id="projectStills" class="project-gallery"></div>
-  </section>
-
-  <nav class="project-pagination">
-    <a id="previousProject" href="#">
-      <span>PREVIOUS PROJECT</span>
-      <strong id="previousProjectTitle"></strong>
-    </a>
-    <a id="nextProject" href="#">
-      <span>NEXT PROJECT</span>
-      <strong id="nextProjectTitle"></strong>
-    </a>
-  </nav>
+    <nav class="project-pagination project-pagination-cinematic">
+      <a id="previousProject" href="#">
+        <span>PREVIOUS PROJECT</span>
+        <strong id="previousProjectTitle"></strong>
+      </a>
+      <a id="nextProject" href="#">
+        <span>NEXT PROJECT</span>
+        <strong id="nextProjectTitle"></strong>
+      </a>
+    </nav>
   </div>
 </section>
 
@@ -1948,7 +1953,7 @@ footer,
 
 
 <footer><span>©2026 im.jjzz by JEON JIWON</span><span>
-<a href="https://www.instagram.com/im.jjzz/" target="_blank" aria-label="Instagram" style="display:inline-flex;align-items:center;color:#111827">
+<a href="https://www.instagram.com/im.jjzz/" target="_blank" aria-label="Instagram" style="display:inline-flex;align-items:center">
 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
 <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
 <path d="M16 11.37a4 4 0 1 1-1.37-1.37A4 4 0 0 1 16 11.37z"></path>
@@ -1984,22 +1989,60 @@ document.addEventListener('DOMContentLoaded', () => {
     return;
   }
 
+  const titleEl = document.getElementById('projectTitle');
+  const metaEl = document.getElementById('projectMeta');
+  const durationEl = document.getElementById('projectDuration');
+  const roleEl = document.getElementById('projectRoleDetail');
+  const descriptionEl = document.getElementById('projectDescription');
+  const heroImage = document.getElementById('projectHeroImage');
+  const heroButton = document.getElementById('projectHeroButton');
+  const stillsEl = document.getElementById('projectStills');
+
   document.title = `${project.title} — im.jjzz`;
-  document.getElementById('projectTitle').textContent = project.title;
-  document.getElementById('projectMeta').textContent = `${project.type} · ${project.year}`;
-document.getElementById('projectDescription').textContent = project.description || '';
-  document.getElementById('projectRoleDetail').textContent =
-    project.roleDetail || project.roles.join(' / ');
+  titleEl.textContent = project.title;
+  metaEl.textContent = [project.type, project.year, project.duration].filter(Boolean).join(' · ');
+  durationEl.textContent = '';
+  durationEl.hidden = true;
+  roleEl.textContent = project.roleDetail || (project.roles || []).join(' / ');
+  descriptionEl.textContent = project.description || '';
 
-  const media = document.getElementById('projectMedia');
-  const imageSrc = project.hero || project.heroImage || project.thumbnail;
+  const heroSrc = project.hero || project.heroImage || project.thumbnail || '';
+  const stills = Array.isArray(project.stills) ? project.stills.filter(Boolean) : [];
+  const galleryImages = [heroSrc, ...stills.filter(src => src !== heroSrc)].filter(Boolean);
+  let activeVisualIndex = 0;
 
-  media.innerHTML = `
-    <div class="project-video-poster">
-      <img loading="eager" decoding="async" src="${imageSrc}" alt="${project.title} project still">
-    </div>
-  `;
+  const setHero = (src, visualIndex = 0) => {
+    heroImage.src = src;
+    heroImage.alt = `${project.title} project still`;
+    activeVisualIndex = visualIndex;
+    stillsEl.querySelectorAll('.project-thumb-button').forEach((button, i) => {
+      button.classList.toggle('active', i === visualIndex);
+      button.setAttribute('aria-current', i === visualIndex ? 'true' : 'false');
+    });
+  };
 
+  stillsEl.innerHTML = galleryImages.map((src, i) => `
+    <button class="project-thumb-button ${i === 0 ? 'active' : ''}" type="button" data-index="${i}" aria-label="View still ${i + 1}">
+      <img loading="${i < 5 ? 'eager' : 'lazy'}" decoding="async" src="${src}" alt="${project.title} thumbnail ${i + 1}">
+    </button>
+  `).join('');
+
+  if (heroSrc) setHero(heroSrc, 0);
+
+  stillsEl.addEventListener('click', event => {
+    const button = event.target.closest('.project-thumb-button');
+    if (!button) return;
+    const i = Number(button.dataset.index);
+    setHero(galleryImages[i], i);
+    button.scrollIntoView({behavior:'smooth', block:'nearest', inline:'center'});
+  });
+
+  const thumbRow = stillsEl;
+  const scrollThumbs = direction => {
+    thumbRow.scrollBy({left: direction * Math.max(260, thumbRow.clientWidth * .72), behavior:'smooth'});
+  };
+  document.getElementById('projectThumbPrev').addEventListener('click', () => scrollThumbs(-1));
+  document.getElementById('projectThumbNext').addEventListener('click', () => scrollThumbs(1));
 
   const videoUrlList = Array.isArray(project.videoUrls) && project.videoUrls.length
     ? project.videoUrls.slice(0, 4)
@@ -2028,26 +2071,32 @@ document.getElementById('projectDescription').textContent = project.description 
   document.getElementById('projectWatchLinks').innerHTML = watchLinks.map(link => {
     const platform = platformName(link.url);
     platformIndexes[platform] = (platformIndexes[platform] || 0) + 1;
-    const number = platform === 'YOUTUBE'
+    const number = platformCounts[platform] > 1
       ? ` ${String(platformIndexes[platform]).padStart(2, '0')}`
-      : (platformCounts[platform] > 1
-          ? ` ${String(platformIndexes[platform]).padStart(2, '0')}`
-          : '');
+      : '';
     return `<a href="${link.url}" target="_blank" rel="noopener noreferrer">${platform}${number} ↗</a>`;
   }).join('');
 
-  if (!(project.stills || []).length) {
-    document.querySelector('.project-gallery-section').style.display = 'none';
-  }
-  if (!(project.credits || []).length) {
-    document.querySelector('.project-credits-section').style.display = 'none';
+  const credits = Array.isArray(project.credits) ? project.credits : [];
+  const creditSection = document.getElementById('projectCreditsSection');
+  if (!credits.length) {
+    creditSection.hidden = true;
+  } else {
+    document.getElementById('projectCredits').innerHTML = credits.map(([role, name]) => {
+      const formatted = String(name).replace(/\(im\.jjzz\)/g,'<span class="credit-handle">(im.jjzz)</span>');
+      return `<div class="credit-row"><span>${role}</span><span>${formatted}</span></div>`;
+    }).join('');
   }
 
-  const technicalRows = [];
-  if (project.duration) technicalRows.push(['Duration', project.duration]);
-  if (project.camera) technicalRows.push(['Camera', project.camera]);
-  if (project.lens) technicalRows.push(['Lens', project.lens]);
-  if (project.format) technicalRows.push(['Format', project.format]);
+  const technicalRows = [
+    ['Camera', project.camera],
+    ['Lens', project.lens],
+    ['Filter', project.filter],
+    ['Format', project.format],
+    ['Color', project.color],
+    ['Aspect Ratio', project.aspectRatio],
+  ].filter(([, value]) => String(value || '').trim());
+
   if (project.contribution && project.contribution.length) {
     technicalRows.push(['Contribution', project.contribution.join(' / ')]);
   }
@@ -2056,22 +2105,9 @@ document.getElementById('projectDescription').textContent = project.description 
     const technicalSection = document.getElementById('projectTechnicalSection');
     technicalSection.hidden = false;
     document.getElementById('projectTechnical').innerHTML = technicalRows.map(([label, value]) => `
-      <div class="project-tech-row"><span>${label}</span><span>${value}</span></div>
+      <div class="project-tech-row"><span>${label}</span><span>${String(value)}</span></div>
     `).join('');
   }
-
-  document.getElementById('projectCredits').innerHTML =
-    (project.credits || []).map(([role, name]) => {
-      const formatted = String(name).replace(/\(im\.jjzz\)/g,'<span class="credit-handle">(im.jjzz)</span>');
-      return `<div class="credit-row"><span>${role}</span><span>${formatted}</span></div>`;
-    }).join('');
-
-  const stills = project.stills || [];
-  document.getElementById('projectStills').innerHTML = stills.map((src, i) => `
-    <button type="button" data-index="${i}" aria-label="Open still ${i + 1}">
-      <img loading="lazy" decoding="async" src="${src}" alt="${project.title} still ${i + 1}">
-    </button>
-  `).join('');
 
   const previous = projects[(index - 1 + projects.length) % projects.length];
   const next = projects[(index + 1) % projects.length];
@@ -2086,19 +2122,20 @@ document.getElementById('projectDescription').textContent = project.description 
 
   const lightbox = document.getElementById('projectLightbox');
   const lightboxImage = document.getElementById('lightboxImage');
-  let currentIndex = 0;
 
-  const showImage = i => {
-    if (!stills.length) return;
-    currentIndex = (i + stills.length) % stills.length;
-    lightboxImage.src = stills[currentIndex];
-  };
-
-  const openLightbox = i => {
-    showImage(i);
+  const openLightbox = () => {
+    if (!galleryImages.length) return;
+    lightboxImage.src = galleryImages[activeVisualIndex];
     lightbox.classList.add('open');
     lightbox.setAttribute('aria-hidden', 'false');
     document.body.style.overflow = 'hidden';
+  };
+
+  const showImage = offset => {
+    if (!galleryImages.length) return;
+    activeVisualIndex = (activeVisualIndex + offset + galleryImages.length) % galleryImages.length;
+    lightboxImage.src = galleryImages[activeVisualIndex];
+    setHero(galleryImages[activeVisualIndex], activeVisualIndex);
   };
 
   const closeLightbox = () => {
@@ -2107,14 +2144,20 @@ document.getElementById('projectDescription').textContent = project.description 
     document.body.style.overflow = '';
   };
 
-  document.getElementById('projectStills').addEventListener('click', event => {
-    const button = event.target.closest('button[data-index]');
-    if (button) openLightbox(Number(button.dataset.index));
+  document.getElementById('projectHeroZoom').addEventListener('click', openLightbox);
+  document.getElementById('projectHeroPrev').addEventListener('click', () => {
+    if (!galleryImages.length) return;
+    activeVisualIndex = (activeVisualIndex - 1 + galleryImages.length) % galleryImages.length;
+    setHero(galleryImages[activeVisualIndex], activeVisualIndex);
   });
-
+  document.getElementById('projectHeroNext').addEventListener('click', () => {
+    if (!galleryImages.length) return;
+    activeVisualIndex = (activeVisualIndex + 1) % galleryImages.length;
+    setHero(galleryImages[activeVisualIndex], activeVisualIndex);
+  });
   document.getElementById('lightboxClose').addEventListener('click', closeLightbox);
-  document.getElementById('lightboxPrev').addEventListener('click', () => showImage(currentIndex - 1));
-  document.getElementById('lightboxNext').addEventListener('click', () => showImage(currentIndex + 1));
+  document.getElementById('lightboxPrev').addEventListener('click', () => showImage(-1));
+  document.getElementById('lightboxNext').addEventListener('click', () => showImage(1));
 
   lightbox.addEventListener('click', event => {
     if (event.target === lightbox) closeLightbox();
@@ -2123,10 +2166,9 @@ document.getElementById('projectDescription').textContent = project.description 
   document.addEventListener('keydown', event => {
     if (!lightbox.classList.contains('open')) return;
     if (event.key === 'Escape') closeLightbox();
-    if (event.key === 'ArrowLeft') showImage(currentIndex - 1);
-    if (event.key === 'ArrowRight') showImage(currentIndex + 1);
+    if (event.key === 'ArrowLeft') showImage(-1);
+    if (event.key === 'ArrowRight') showImage(1);
   });
 });
 </script>
-
 </body></html>

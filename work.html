@@ -874,7 +874,8 @@ footer,
   }
 }
 
-</style></head><body>
+</style><link rel="stylesheet" href="cinematic.css">
+</head><body>
 <div class="cursor"></div>
 <header>
 <a href="index.html" class="brand">im.jjzz</a>
@@ -898,7 +899,7 @@ footer,
   <section class="selected-section" aria-labelledby="selectedWorksTitle">
     <div class="work-section-head">
       <h2 id="selectedWorksTitle">SELECTED WORKS</h2>
-      <span class="section-count">03</span>
+      
     </div>
     <div class="selected-grid" id="selectedGrid"></div>
   </section>
@@ -916,7 +917,7 @@ footer,
 
 
 <footer><span>©2026 im.jjzz by JEON JIWON</span><span>
-<a href="https://www.instagram.com/im.jjzz/" target="_blank" aria-label="Instagram" style="display:inline-flex;align-items:center;color:#111827">
+<a href="https://www.instagram.com/im.jjzz/" target="_blank" aria-label="Instagram" style="display:inline-flex;align-items:center">
 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
 <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
 <path d="M16 11.37a4 4 0 1 1-1.37-1.37A4 4 0 0 1 16 11.37z"></path>
@@ -1000,12 +1001,7 @@ document.addEventListener('DOMContentLoaded', () => {
     .slice(0, 3);
 
   const selectedSection = document.querySelector('.selected-section');
-  const selectedCount = selectedSection?.querySelector('.section-count');
-
-  if (selectedCount) {
-    selectedCount.textContent = String(selectedProjects.length).padStart(2, '0');
-  }
-  if (selectedSection) {
+if (selectedSection) {
     selectedSection.hidden = selectedProjects.length === 0;
   }
 

@@ -10,7 +10,7 @@ const projects = [
       "Color Grading"
     ],
     "thumbnail": "assets/heterotopia-thumb.webp",
-    "hero": "assets/heterotopia-hero.webp",
+    "hero": "",
     "video": "https://youtu.be/GYwBPmgaL70",
     "videoUrl": "https://youtu.be/GYwBPmgaL70",
     "videoUrls": [
@@ -19,9 +19,12 @@ const projects = [
     "description": "2026 뉴폼아트(젊은창작) 콘텐츠 제작 선정작\n⟪방주: HETEROTOPIA⟫\n\nInteractive MediaArt Exhibition & Immersive Performance",
     "roleDetail": "Director of Photography\nColor Grading",
     "contribution": [],
-    "camera": "",
-    "lens": "",
-    "format": "",
+    "camera": "Sony FX3",
+    "lens": "Sony GM",
+    "filter": "",
+    "format": "4K UHD",
+    "color": "S-log3 / S-Gamut3.Cine",
+    "aspectRatio": "",
     "featured": false,
     "credits": [
       [
@@ -31,10 +34,17 @@ const projects = [
       [
         "Director of Photography",
         "전지원 (im.jjzz)"
+      ],
+      [
+        "Edit",
+        "박성혜"
+      ],
+      [
+        "Sound",
+        "박정빈"
       ]
     ],
     "stills": [
-      "assets/heterotopia-still-01.jpg",
       "assets/heterotopia-still-02.webp",
       "assets/heterotopia-still-03.webp",
       "assets/heterotopia-still-04.webp",
@@ -70,22 +80,73 @@ const projects = [
     "description": "연애 경험이 전혀 없는 일반인 모태솔로 남성이 모의 소개팅을 통해 자신의 문제점을 진단받고 세 명의 연애 컨설턴트에게 외모, 대화법, 매너 등 맞춤형 코칭을 받은 뒤 실제 소개팅에 도전하는 성장형 연애 리얼리티 예능프로그램",
     "roleDetail": "Director of Photography\nColor Grading",
     "contribution": [],
-    "camera": "",
-    "lens": "",
-    "format": "",
+    "camera": "Sony FX3, Sony A7S3, Sony PXW-Z90",
+    "lens": "Sony GM",
+    "filter": "",
+    "format": "4K UHD",
+    "color": "S-log3 / S-Gamut3.Cine",
+    "aspectRatio": "",
     "featured": false,
     "credits": [
       [
-        "Director",
+        "연출",
         "정이한"
       ],
       [
-        "Director of Photography",
-        "전지원 (im.jjzz)"
+        "조연출",
+        "홍예림 박연서"
       ],
       [
-        "Color Grading",
-        "전지원 (im.jjzz)"
+        "기획",
+        "정이한 박연서"
+      ],
+      [
+        "메인 프로듀서",
+        "유서윤"
+      ],
+      [
+        "라인 프로듀서",
+        "이청현 이은수"
+      ],
+      [
+        "제작부",
+        "최원규 조수민 강흥석 김민진"
+      ],
+      [
+        "촬영",
+        "전지원 (im.jjzz), 조의현"
+      ],
+      [
+        "촬영부",
+        "강흥석 박건 김선중 오민석 최민경"
+      ],
+      [
+        "종합편집",
+        "정이한"
+      ],
+      [
+        "스크립터, DIT",
+        "임가령 김연호"
+      ],
+      [
+        "자막, 효과",
+        "임가령"
+      ],
+      [
+        "그래픽",
+        "정이한 임가령"
+      ],
+      [
+        "동시녹음",
+        "최준우 추동현"
+      ],
+      [
+        "음향부",
+        "황예지 최종원 가람"
+      ],
+      [
+        "사운드 디자인",
+        "이주혁 김효준"
       ]
     ],
     "stills": []
@@ -111,7 +172,10 @@ const projects = [
     ],
     "camera": "",
     "lens": "",
+    "filter": "",
     "format": "",
+    "color": "",
+    "aspectRatio": "",
     "featured": false,
     "credits": [
       [
@@ -139,25 +203,87 @@ const projects = [
     "roleDetail": "Camera Crew",
     "contribution": [],
     "camera": "Sony FX6",
-    "lens": "",
-    "format": "",
+    "lens": "Sony GM",
+    "filter": "",
+    "format": "4K UHD",
+    "color": "S-log3 / S-Gamut3.Cine",
+    "aspectRatio": "",
     "featured": false,
     "credits": [
       [
-        "Director",
+        "기획",
+        "이수민 최윤정"
+      ],
+      [
+        "연출",
         "이수민"
       ],
       [
-        "Director of Photography",
+        "조연출",
+        "김도희"
+      ],
+      [
+        "프로듀서",
+        "봉지혜"
+      ],
+      [
+        "라인 프로듀서",
+        "서유영"
+      ],
+      [
+        "제작부",
+        "송민진 전은서"
+      ],
+      [
+        "촬영",
         "박건"
       ],
       [
-        "Camera Crew",
-        "전지원 (im.jjzz)"
+        "촬영1st",
+        "손태준"
+      ],
+      [
+        "촬영부",
+        "전지원 (im.jjzz) 이승헌 최은총 신정욱 최은아 이주연 오승민"
+      ],
+      [
+        "편집",
+        "이지누 이승은"
+      ],
+      [
+        "D.I",
+        "박건"
+      ],
+      [
+        "그래픽",
+        "이승은 이지누"
+      ],
+      [
+        "음향",
+        "박혜선"
+      ],
+      [
+        "사운드 디자인",
+        "이수민"
+      ],
+      [
+        "제작지원",
+        "송민진 전유민"
+      ],
+      [
+        "미술지원",
+        "권다령 한유빈 서은진"
+      ],
+      [
+        "음향지원",
+        "이지호"
+      ],
+      [
+        "스틸사진",
+        "김소은 진효"
       ]
     ],
     "stills": [
-      "assets/0-track-still-01.webp",
       "assets/0-track-still-02.webp",
       "assets/0-track-still-03.webp",
       "assets/0-track-still-04.webp",
@@ -189,7 +315,10 @@ const projects = [
     "contribution": [],
     "camera": "Sony FX6",
     "lens": "Sony GM",
+    "filter": "",
     "format": "S-log3 / S-Gamut3.Cine",
+    "color": "",
+    "aspectRatio": "",
     "featured": false,
     "credits": [
       [
@@ -202,7 +331,11 @@ const projects = [
       ],
       [
         "Camera Crew",
-        "전지원 (im.jjzz)"
+        "전지원 (im.jjzz), 최은아"
+      ],
+      [
+        "Edit",
+        "이수민"
       ],
       [
         "Color Grading",
@@ -239,7 +372,10 @@ const projects = [
     "contribution": [],
     "camera": "Sony FX3",
     "lens": "Sony GM",
+    "filter": "",
     "format": "",
+    "color": "",
+    "aspectRatio": "",
     "featured": false,
     "credits": [
       [
@@ -273,22 +409,77 @@ const projects = [
     "description": "Pre-Release Single 'Sara (Single Ver.) Performance Video/Cinematic Video",
     "roleDetail": "Camera Crew",
     "contribution": [],
-    "camera": "",
-    "lens": "",
+    "camera": "Sony FX6",
+    "lens": "Sony GM",
+    "filter": "",
     "format": "",
+    "color": "",
+    "aspectRatio": "",
     "featured": false,
     "credits": [
       [
         "Director",
-        "이수민"
+        "LEE SOOMIN"
       ],
       [
-        "Director of Photography",
-        "박건"
+        "Assistant Director",
+        "KIM DOHEE"
       ],
       [
-        "Camera Crew",
-        "전지원 (im.jjzz)"
+        "PRODUCER",
+        "BONG JI HYE"
+      ],
+      [
+        "LINE PRODUCER",
+        "SEO YU YEONG"
+      ],
+      [
+        "D.O.P",
+        "PARK GEON"
+      ],
+      [
+        "Grip",
+        "SON TAE JUN"
+      ],
+      [
+        "CAMERA TEAM",
+        "OH SEUNGMIN, CHOI EUNA, CHOI EUN CHONG, JEON JIWON (im.jjzz)"
+      ],
+      [
+        "SOUND",
+        "PARK HYESEON"
+      ],
+      [
+        "EIDT",
+        "LEE SOOMIN"
+      ],
+      [
+        "SCRIPT",
+        "LEE SEUNG EUN"
+      ],
+      [
+        "D.I",
+        "LEE SOOMIN"
+      ],
+      [
+        "ART Director",
+        "LEE SOOMIN"
+      ],
+      [
+        "ART TEAM",
+        "HAN YUBIN, KWON DARYEONG, JEON YUMIN, SEO EUN JIN"
+      ],
+      [
+        "BTS VIDEO",
+        "LEE JINU"
+      ],
+      [
+        "BTS PHOTO",
+        "KIM JINHYO, KIM SOEUN"
+      ],
+      [
+        "ROAD MANAGER",
+        "JEON YUMIN, KIM DOHEE,  CHOI EUN CHONG, PARK GEON"
       ]
     ],
     "stills": [
@@ -336,22 +527,57 @@ const projects = [
     "description": "서울예술대학교 무용전공 & 방송영상전공 Dance Film\nHandsome Guys 'THE RASCALS'\n007 (Jersey Mix) - Duckwrth",
     "roleDetail": "Camera Crew",
     "contribution": [],
-    "camera": "",
-    "lens": "",
-    "format": "",
+    "camera": "Sony FX3",
+    "lens": "Sony GM",
+    "filter": "",
+    "format": "4K UHD",
+    "color": "S-log3 / S-Gamut3.Cine",
+    "aspectRatio": "",
     "featured": false,
     "credits": [
       [
-        "Director",
-        "최은총"
+        "DIRECTOR",
+        "EUNCHONG CHOI"
       ],
       [
-        "Director of Photography",
-        "박성현"
+        "AD",
+        "JIMIN AN, SAEBYEOL KIM, JIHYUK EOM, MINJI LIM, AYOUNG JO, BOMIN KIM"
       ],
       [
-        "Camera Crew",
-        "전지원 (im.jjzz)"
+        "DOP",
+        "SUNGHYUN PARK"
+      ],
+      [
+        "1ST",
+        "JIWON JEON (im.jjzz)"
+      ],
+      [
+        "2ND",
+        "JIHOON SHIN, JUHO SHIN"
+      ],
+      [
+        "GAFFER",
+        "GEON PARK"
+      ],
+      [
+        "Light Crew",
+        "JINHYUCK YANG, HOJOON JEONG, TAEHO KIM"
+      ],
+      [
+        "EDIT",
+        "EUNCHONG CHOI"
+      ],
+      [
+        "2D",
+        "GWANGSEOK JO"
+      ],
+      [
+        "DI",
+        "GWANGSEOK JO"
+      ],
+      [
+        "MUSIC EDIT",
+        "SAEBYEOL KIM"
       ]
     ],
     "stills": [
@@ -383,9 +609,12 @@ const projects = [
     "description": "시대(sidae) - 무채(Muchae) MV",
     "roleDetail": "Camera Crew \nColor Grading",
     "contribution": [],
-    "camera": "",
-    "lens": "",
-    "format": "",
+    "camera": "Sony FX6",
+    "lens": "Sony GM",
+    "filter": "BLACK-PROMIST 1/2",
+    "format": "4K UHD",
+    "color": "S-log3 / S-Gamut3.Cine",
+    "aspectRatio": "",
     "featured": false,
     "credits": [
       [
@@ -393,16 +622,52 @@ const projects = [
         "이수민"
       ],
       [
-        "Director of Photography",
-        "박건"
+        "Assistant Director",
+        "박혜선"
       ],
       [
-        "Camera Crew",
+        "Scripter",
+        "이지누"
+      ],
+      [
+        "Edit / DIT",
+        "이지누"
+      ],
+      [
+        "D.I",
         "전지원 (im.jjzz)"
       ],
       [
-        "Color Grading",
-        "전지원 (im.jjzz), 박건"
+        "Sound Design",
+        "이지누"
+      ],
+      [
+        "Art Director",
+        "이수민"
+      ],
+      [
+        "Art Team",
+        "권시우"
+      ],
+      [
+        "Stylist",
+        "이수민, 이유민"
+      ],
+      [
+        "D.O.P Director of Photography",
+        "박건"
+      ],
+      [
+        "Camera Team",
+        "최은아, 전지원 (im.jjzz)"
+      ],
+      [
+        "Gaffer",
+        "양진혁"
+      ],
+      [
+        "Actor",
+        "해연, 유현"
       ]
     ],
     "stills": [
@@ -449,22 +714,109 @@ const projects = [
     "description": "2025 서울예술대학교 방송영상전공 졸업작품 <위, 고비>",
     "roleDetail": "Camera Crew",
     "contribution": [],
-    "camera": "",
+    "camera": "Sony PXW-Z90, Sony HXR-NX80",
     "lens": "",
-    "format": "",
+    "filter": "",
+    "format": "FHD",
+    "color": "",
+    "aspectRatio": "",
     "featured": false,
     "credits": [
       [
-        "Director",
+        "기획, 연출, 편집",
         "최은총"
       ],
       [
-        "Director of Photography",
+        "작가",
+        "이제영"
+      ],
+      [
+        "조연출",
+        "박하온 강수아 박채연 임민지"
+      ],
+      [
+        "현장 연출팀",
+        "김도은 김민선 김보민 송연우 이미소 이채영 이혜원 여예원 조수민 조아영"
+      ],
+      [
+        "연출 지원",
+        "정영빈 임성종"
+      ],
+      [
+        "제작 프로듀서",
+        "노위찬"
+      ],
+      [
+        "라인 프로듀서",
+        "서지연"
+      ],
+      [
+        "제작팀",
+        "김다니엘건 임나윤"
+      ],
+      [
+        "게임개발팀",
+        "강수아 김새별 임민지 박하온 박채연 조아영 권다령 이은지 최민경"
+      ],
+      [
+        "외부 게임개발팀",
+        "서울대학교 강호현 이예준 정범빈"
+      ],
+      [
+        "게임 시뮬레이션",
+        "곽은샘 권성빈 김성준 남로이 신주호 서지우 송혜민 이채영 엄지혁 황성재 하다현"
+      ],
+      [
+        "게임 시스템 운용",
+        "박하온 강호현"
+      ],
+      [
+        "자문 및 지원",
+        "보드게임 <회식으로 사원에서 부장까지> 제작진 '피제터스'"
+      ],
+      [
+        "D.O.P",
         "정호준"
       ],
       [
-        "Camera Crew",
-        "전지원 (im.jjzz)"
+        "2nd D.O.P",
+        "하준서"
+      ],
+      [
+        "3rd D.O.P",
+        "이상욱 김익수"
+      ],
+      [
+        "카메라 오퍼레이터",
+        "권민기 권범준 권성빈 김성준 김재교 김태현 박건 박주성 신동욱 신정욱 신주호 신지훈 신희준 양진혁 윤건호 이수빈 이승헌 이한빈 장주원 전지원(im.jjzz) 정재훈"
+      ],
+      [
+        "정효균 조아라",
+        ""
+      ],
+      [
+        "카메라 어시스던트",
+        "김나영 류혜준 류혜지 신규리 송승현"
+      ],
+      [
+        "기술지원",
+        "박윤재"
+      ],
+      [
+        "동시녹음/ 음향/ 사운드디자인",
+        "김새별"
+      ],
+      [
+        "음향팀",
+        "엄지혁 한승훈 조아영 박정빈 조광석 가람 최준우 김하늘"
+      ],
+      [
+        "기술지원",
+        "한승훈"
+      ],
+      [
+        "붐오퍼레이터",
+        "엄지혁"
       ]
     ],
     "stills": [
@@ -499,20 +851,55 @@ const projects = [
     "contribution": [],
     "camera": "",
     "lens": "",
+    "filter": "",
     "format": "",
+    "color": "",
+    "aspectRatio": "",
     "featured": false,
     "credits": [
       [
-        "Director",
+        "연출",
         "권다령"
       ],
       [
-        "Director of Photography",
+        "조연출",
+        "신지혜"
+      ],
+      [
+        "구성",
+        "최진성, 이은아"
+      ],
+      [
+        "PD",
+        "조은교"
+      ],
+      [
+        "제작부",
+        "양예모, 이지훈, 김연희"
+      ],
+      [
+        "촬영",
         "강흥석, 김누리"
       ],
       [
-        "Camera Crew",
-        "전지원 (im.jjzz)"
+        "촬영부",
+        "전지원 (im.jjzz), 인수교, 김선중, 김재교"
+      ],
+      [
+        "종합편집, DIT",
+        "송혜민"
+      ],
+      [
+        "D.I, DIT",
+        "전유민"
+      ],
+      [
+        "음향",
+        "김하늘"
+      ],
+      [
+        "음악, 작곡",
+        "홍예담"
       ]
     ],
     "stills": [
@@ -548,7 +935,10 @@ const projects = [
     "contribution": [],
     "camera": "",
     "lens": "",
+    "filter": "",
     "format": "",
+    "color": "",
+    "aspectRatio": "",
     "featured": false,
     "credits": [
       [
@@ -577,7 +967,10 @@ const projects = [
     "contribution": [],
     "camera": "",
     "lens": "",
+    "filter": "",
     "format": "",
+    "color": "",
+    "aspectRatio": "",
     "featured": false,
     "credits": [
       [
@@ -608,7 +1001,10 @@ const projects = [
     ],
     "camera": "",
     "lens": "",
+    "filter": "",
     "format": "",
+    "color": "",
+    "aspectRatio": "",
     "featured": false,
     "credits": [
       [
@@ -637,7 +1033,10 @@ const projects = [
     "contribution": [],
     "camera": "",
     "lens": "",
+    "filter": "",
     "format": "",
+    "color": "",
+    "aspectRatio": "",
     "featured": false,
     "credits": [
       [
@@ -668,7 +1067,10 @@ const projects = [
     "contribution": [],
     "camera": "",
     "lens": "",
+    "filter": "",
     "format": "",
+    "color": "",
+    "aspectRatio": "",
     "featured": false,
     "credits": [
       [
@@ -705,7 +1107,10 @@ const projects = [
     "contribution": [],
     "camera": "",
     "lens": "",
+    "filter": "",
     "format": "",
+    "color": "",
+    "aspectRatio": "",
     "featured": false,
     "credits": [
       [
@@ -736,7 +1141,10 @@ const projects = [
     "contribution": [],
     "camera": "",
     "lens": "",
+    "filter": "",
     "format": "",
+    "color": "",
+    "aspectRatio": "",
     "featured": false,
     "credits": [
       [
@@ -769,20 +1177,83 @@ const projects = [
     "contribution": [],
     "camera": "Sony FX6",
     "lens": "",
-    "format": "S-log3 / S-Gamut3.Cine",
+    "filter": "",
+    "format": "",
+    "color": "S-log3 / S-Gamut3.Cine",
+    "aspectRatio": "",
     "featured": false,
     "credits": [
       [
-        "Director",
+        "프로듀서",
+        "송면기"
+      ],
+      [
+        "제작부",
+        "박채연 박하온"
+      ],
+      [
+        "연출",
         "엄지원"
       ],
       [
-        "Director of Photography",
+        "조연출",
+        "엄세은"
+      ],
+      [
+        "연출부",
+        "류다현 강서영 이주연"
+      ],
+      [
+        "촬영감독",
         "신정욱"
       ],
       [
-        "Color Grading",
+        "촬영 1st",
+        "정영주"
+      ],
+      [
+        "촬영 2nd",
+        "김보민"
+      ],
+      [
+        "조명감독",
+        "양동균"
+      ],
+      [
+        "조명부",
+        "신동욱, 김현경, 김규빈"
+      ],
+      [
+        "편집",
+        "박유주"
+      ],
+      [
+        "D.I",
         "전지원 (im.jjzz)"
+      ],
+      [
+        "음향감독",
+        "장재원"
+      ],
+      [
+        "음향팀",
+        "조아영, 박정빈, 윤경진, 가람"
+      ],
+      [
+        "음악",
+        "장재원"
+      ],
+      [
+        "미술",
+        "이은서"
+      ],
+      [
+        "미술부",
+        "박소현, 목지혜, 이시은, 서문교"
+      ],
+      [
+        "무술감독",
+        "서문교"
       ]
     ],
     "stills": [
@@ -837,7 +1308,10 @@ const projects = [
     "contribution": [],
     "camera": "Sony FX3",
     "lens": "Sony GM",
-    "format": "S-log3 / S-Gamut3.Cine",
+    "filter": "",
+    "format": "4K UHD",
+    "color": "S-log3 / S-Gamut3.Cine",
+    "aspectRatio": "",
     "featured": false,
     "credits": [
       [
@@ -845,8 +1319,36 @@ const projects = [
         "전혜정"
       ],
       [
+        "Producer",
+        "강민규"
+      ],
+      [
+        "Assistant Producer",
+        "이수민, 김무비, 정찬희"
+      ],
+      [
+        "Scripter",
+        "곽도은"
+      ],
+      [
         "Director of Photography",
-        "전지원 (im.jjzz)"
+        "전지원 (im.jjzz), 김재교"
+      ],
+      [
+        "Lighting",
+        "정영주, 신지훈"
+      ],
+      [
+        "Edit, D.I",
+        "정희선"
+      ],
+      [
+        "2D Motion Graphics",
+        "방재준"
+      ],
+      [
+        "Sound",
+        "한승훈, 윤여웅"
       ]
     ],
     "stills": [
@@ -883,7 +1385,10 @@ const projects = [
     "contribution": [],
     "camera": "Sony PXW-Z90",
     "lens": "",
-    "format": "",
+    "filter": "",
+    "format": "FHD",
+    "color": "",
+    "aspectRatio": "",
     "featured": false,
     "credits": [
       [
@@ -891,8 +1396,16 @@ const projects = [
         "이수민"
       ],
       [
+        "Assistant Director",
+        "박혜선"
+      ],
+      [
         "Director of Photography",
         "전지원 (im.jjzz)"
+      ],
+      [
+        "Edit",
+        "이지누"
       ]
     ],
     "stills": []
@@ -915,11 +1428,14 @@ const projects = [
       "https://youtu.be/eq-v7y9FUzM"
     ],
     "description": "Balming Tiger ‘BURIBURI’ Cover MV",
-    "roleDetail": "Director of Photography / Color Grading",
+    "roleDetail": "Director of Photography\nColor Grading",
     "contribution": [],
     "camera": "Sony FX3",
     "lens": "Sony GM",
-    "format": "S-log3 / S-Gamut3.Cine",
+    "filter": "BLACK-PROMIST 1/4",
+    "format": "4K UHD",
+    "color": "S-log3 / S-Gamut3.Cine",
+    "aspectRatio": "",
     "featured": true,
     "credits": [
       [
@@ -927,12 +1443,44 @@ const projects = [
         "이수민"
       ],
       [
+        "Production Assistant",
+        "송혜민, 류다현, 이예준, 김나영, 박유주"
+      ],
+      [
         "Director of Photography",
         "전지원 (im.jjzz)"
       ],
       [
-        "Color Grading",
+        "Camera Crew",
+        "신혜원, 김민선, 엄세은"
+      ],
+      [
+        "Still Photo",
+        "이수민, 진도현, 이예준"
+      ],
+      [
+        "Edit",
+        "이수민"
+      ],
+      [
+        "D.I",
         "전지원 (im.jjzz)"
+      ],
+      [
+        "Art Director",
+        "이수민"
+      ],
+      [
+        "Makeup & Style",
+        "이수민"
+      ],
+      [
+        "Load Manager",
+        "류다현, 박유주, 이미진"
+      ],
+      [
+        "Location",
+        "용마랜드 동행스튜디오, 과천 국립 과학관, 효원공원 월화원"
       ]
     ],
     "stills": [
@@ -975,11 +1523,14 @@ const projects = [
       "https://www.youtube.com/watch?v=LkjH3MpiAWY"
     ],
     "description": "한은 자신의 실수로 친구인 수아를 잃은 후 죄책감을 가지고 살아간다. 몇 년 후 수아와 똑같이 생긴 소녀와 마주친 한은, 과거에 있었던 일의 비밀을 알아내기 위해 수아와의 동거를 시작한다.",
-    "roleDetail": "Director of Photography / Color Grading",
+    "roleDetail": "Director of Photography\nColor Grading",
     "contribution": [],
-    "camera": "Sony FX6, Hollywood Black Magic 1/8",
-    "lens": "",
-    "format": "S-log3 / S-Gamut3.Cine",
+    "camera": "Sony FX6",
+    "lens": "SAMYANG XEEN CF Prime",
+    "filter": "Hollywood Black Magic 1/8",
+    "format": "4K UHD",
+    "color": "S-log3 / S-Gamut3.Cine",
+    "aspectRatio": "",
     "featured": true,
     "credits": [
       [
@@ -1000,7 +1551,7 @@ const projects = [
       ],
       [
         "촬영",
-        "전지원 원최영"
+        "전지원 (im.jjzz) 원최영"
       ],
       [
         "촬영부",
@@ -1028,7 +1579,7 @@ const projects = [
       ],
       [
         "색보정",
-        "전지원"
+        "전지원 (im.jjzz)"
       ],
       [
         "음향",
@@ -1070,7 +1621,10 @@ const projects = [
     "contribution": [],
     "camera": "Sony FX3",
     "lens": "Sony GM",
-    "format": "S-log3 / S-Gamut3.Cine",
+    "filter": "",
+    "format": "4K UHD",
+    "color": "S-log3 / S-Gamut3.Cine",
+    "aspectRatio": "",
     "featured": false,
     "credits": [
       [
@@ -1079,11 +1633,22 @@ const projects = [
       ],
       [
         "Director of Photography",
-        "전지원 (im.jjzz)"
+        "전지원 (im.jjzz), 장태수"
+      ],
+      [
+        "Edit",
+        "정희선"
+      ],
+      [
+        "D.I",
+        "이서영"
+      ],
+      [
+        "Sound",
+        "한승훈"
       ]
     ],
     "stills": [
-      "assets/m-art-still-01.webp",
       "assets/m-art-still-02.webp",
       "assets/m-art-still-03.webp",
       "assets/m-art-still-04.webp",
@@ -1121,7 +1686,10 @@ const projects = [
     "contribution": [],
     "camera": "Sony FX3",
     "lens": "Sony GM",
-    "format": "S-log3 / S-Gamut3.Cine",
+    "filter": "",
+    "format": "4K UHD",
+    "color": "S-log3 / S-Gamut3.Cine",
+    "aspectRatio": "",
     "featured": false,
     "credits": [
       [
@@ -1131,6 +1699,18 @@ const projects = [
       [
         "Director of Photography",
         "전지원 (im.jjzz)"
+      ],
+      [
+        "Camera Crew",
+        "박성현, 김재교"
+      ],
+      [
+        "Edit, D.I",
+        "정희선"
+      ],
+      [
+        "Sound",
+        "한승훈"
       ]
     ],
     "stills": [
@@ -1170,14 +1750,21 @@ const projects = [
     "description": "2024 문화도시부평 <꽤 쓸모있는 도시실험2> ‘어쩌다 마주친 그 춤'",
     "roleDetail": "Director of Photography\nColor Grading",
     "contribution": [],
-    "camera": "",
-    "lens": "",
-    "format": "",
+    "camera": "Sony FX3",
+    "lens": "Sony GM",
+    "filter": "",
+    "format": "4K UHD",
+    "color": "S-log3 / S-Gamut3.Cine",
+    "aspectRatio": "",
     "featured": false,
     "credits": [
       [
         "Director",
         "이수민"
+      ],
+      [
+        "Producer",
+        "박해원"
       ],
       [
         "Director of Photography",
@@ -1210,17 +1797,76 @@ const projects = [
     "roleDetail": "Director of Photography",
     "contribution": [],
     "camera": "Sony FX6",
-    "lens": "",
-    "format": "S-log3 / S-Gamut3.Cine",
+    "lens": "SAMYANG XEEN",
+    "filter": "Hollywood Black Magic 1/8",
+    "format": "4K UHD",
+    "color": "S-log3 / S-Gamut3.Cine",
+    "aspectRatio": "",
     "featured": true,
     "credits": [
       [
-        "Director",
+        "연출",
         "이수민"
       ],
       [
-        "Director of Photography",
-        "전지원 (im.jjzz)"
+        "각본",
+        "박혜선 조수빈"
+      ],
+      [
+        "프로듀서",
+        "노위찬"
+      ],
+      [
+        "조연출",
+        "김나영 김현우"
+      ],
+      [
+        "촬영",
+        "전지원"
+      ],
+      [
+        "1st",
+        "전호연"
+      ],
+      [
+        "조명",
+        "마진혁"
+      ],
+      [
+        "조명부",
+        "원최영"
+      ],
+      [
+        "편집",
+        "이지누"
+      ],
+      [
+        "색보정",
+        "이은지"
+      ],
+      [
+        "데이터 매니저",
+        "김민철"
+      ],
+      [
+        "음향",
+        "박혜선"
+      ],
+      [
+        "음악",
+        "밴드 시대"
+      ],
+      [
+        "미술",
+        "이수민"
+      ],
+      [
+        "미술부",
+        "양려원 이지누"
+      ],
+      [
+        "소품",
+        "김현우 이은지 전지원"
       ]
     ],
     "stills": [
@@ -1269,9 +1915,12 @@ const projects = [
     "description": "천진난만 \n천진난만하게 춤추고•듣고•즐기고 스케치 영상",
     "roleDetail": "Director of Photography",
     "contribution": [],
-    "camera": "",
-    "lens": "",
+    "camera": "Sony FX3, Sony A7S3",
+    "lens": "Sony GM",
+    "filter": "",
     "format": "",
+    "color": "",
+    "aspectRatio": "",
     "featured": false,
     "credits": [
       [
@@ -1308,9 +1957,12 @@ const projects = [
     "description": "나나나 2기 하계 워크숍 <고등어> 연습실 스케치",
     "roleDetail": "Camera Crew / Color Grading",
     "contribution": [],
-    "camera": "",
-    "lens": "",
+    "camera": "Sony FX3",
+    "lens": "Sony GM",
+    "filter": "",
     "format": "",
+    "color": "",
+    "aspectRatio": "",
     "featured": false,
     "credits": [
       [
@@ -1328,6 +1980,10 @@ const projects = [
       [
         "Color Grading",
         "전지원 (im.jjzz)"
+      ],
+      [
+        "Edit",
+        "박유주"
       ]
     ],
     "stills": [
@@ -1355,22 +2011,49 @@ const projects = [
     "description": "",
     "roleDetail": "Camera Crew",
     "contribution": [],
-    "camera": "",
+    "camera": "Sony FX3",
     "lens": "",
+    "filter": "",
     "format": "",
+    "color": "",
+    "aspectRatio": "",
     "featured": false,
     "credits": [
       [
-        "Director",
+        "연출",
         "엄세은"
       ],
       [
-        "Director of Photography",
-        "엄세은, 이동욱"
+        "각색",
+        "박은진"
       ],
       [
-        "Camera Crew",
-        "전지원 (im.jjzz)"
+        "프로듀서",
+        "곽도은"
+      ],
+      [
+        "촬영",
+        "엄세은 이동욱"
+      ],
+      [
+        "촬영부",
+        "전지원(im.jjzz), 이용찬, 나준혁"
+      ],
+      [
+        "조명",
+        "송승현, 나준혁"
+      ],
+      [
+        "편집",
+        "박유주"
+      ],
+      [
+        "음향",
+        "정영빈"
+      ],
+      [
+        "음향부",
+        "박건욱"
       ]
     ],
     "stills": [
@@ -1408,7 +2091,10 @@ const projects = [
     "contribution": [],
     "camera": "",
     "lens": "",
+    "filter": "",
     "format": "",
+    "color": "",
+    "aspectRatio": "",
     "featured": false,
     "credits": [
       [
@@ -1422,6 +2108,54 @@ const projects = [
       [
         "Camera Crew",
         "전지원 (im.jjzz)"
+      ],
+      [
+        "프로듀서, 미술부",
+        "윤지은"
+      ],
+      [
+        "제작부",
+        "김건호"
+      ],
+      [
+        "연출",
+        "강예현"
+      ],
+      [
+        "조연출, 미술부",
+        "김지원"
+      ],
+      [
+        "연출부",
+        "이채영, 이진선, 이혜원"
+      ],
+      [
+        "촬영",
+        "신혜원"
+      ],
+      [
+        "촬영, 미술부",
+        "서지우"
+      ],
+      [
+        "촬영부",
+        "전지원"
+      ],
+      [
+        "음향, 동시녹음, 믹싱, 폴리",
+        "김유정"
+      ],
+      [
+        "음향부",
+        "박혜선"
+      ],
+      [
+        "편집, 스크립터",
+        "이미현"
+      ],
+      [
+        "그래픽, 자막디자인, D.I, DIT",
+        "이채연"
       ]
     ],
     "stills": [
@@ -1455,16 +2189,51 @@ const projects = [
     "contribution": [],
     "camera": "",
     "lens": "",
+    "filter": "",
     "format": "",
+    "color": "",
+    "aspectRatio": "",
     "featured": false,
     "credits": [
+      [
+        "Starring",
+        "조민주 정재훈"
+      ],
       [
         "Director",
         "박혜선"
       ],
       [
         "Assistant Director",
+        "이예준"
+      ],
+      [
+        "Producer",
         "전지원 (im.jjzz)"
+      ],
+      [
+        "D.O.P",
+        "김휘향"
+      ],
+      [
+        "Camera",
+        "김수환 최서진"
+      ],
+      [
+        "GAFFER",
+        "권영민"
+      ],
+      [
+        "Lighting",
+        "구지현"
+      ],
+      [
+        "Edit",
+        "이지누"
+      ],
+      [
+        "Load Manager",
+        "김유정 이동빈"
       ]
     ],
     "stills": [
@@ -1495,7 +2264,10 @@ const projects = [
     "contribution": [],
     "camera": "",
     "lens": "",
+    "filter": "",
     "format": "",
+    "color": "",
+    "aspectRatio": "",
     "featured": false,
     "credits": [
       [
@@ -1528,7 +2300,10 @@ const projects = [
     "contribution": [],
     "camera": "",
     "lens": "",
+    "filter": "",
     "format": "",
+    "color": "",
+    "aspectRatio": "",
     "featured": false,
     "credits": [
       [
@@ -1563,7 +2338,10 @@ const projects = [
     "contribution": [],
     "camera": "",
     "lens": "",
+    "filter": "",
     "format": "",
+    "color": "",
+    "aspectRatio": "",
     "featured": false,
     "credits": [
       [
@@ -1596,7 +2374,10 @@ const projects = [
     "contribution": [],
     "camera": "",
     "lens": "",
+    "filter": "",
     "format": "",
+    "color": "",
+    "aspectRatio": "",
     "featured": false,
     "credits": [
       [
@@ -1637,7 +2418,10 @@ const projects = [
     "contribution": [],
     "camera": "",
     "lens": "",
+    "filter": "",
     "format": "",
+    "color": "",
+    "aspectRatio": "",
     "featured": false,
     "credits": [
       [
@@ -1674,20 +2458,75 @@ const projects = [
     "contribution": [],
     "camera": "",
     "lens": "",
+    "filter": "",
     "format": "",
+    "color": "",
+    "aspectRatio": "",
     "featured": false,
     "credits": [
       [
-        "Director",
+        "연출",
         "서다빈"
       ],
       [
-        "Director of Photography",
+        "조연출",
+        "박지우"
+      ],
+      [
+        "PD",
+        "윤지은"
+      ],
+      [
+        "라인PD",
+        "강서현"
+      ],
+      [
+        "로드매니저",
+        "강서현, 윤준섭"
+      ],
+      [
+        "촬영",
         "신혜원"
       ],
       [
-        "Camera Crew",
-        "전지원 (im.jjzz)"
+        "촬영팀",
+        "전지원 (im.jjzz), 김선중"
+      ],
+      [
+        "조명",
+        "정효균"
+      ],
+      [
+        "조명팀",
+        "김주호"
+      ],
+      [
+        "미술",
+        "김하늘"
+      ],
+      [
+        "미술팀",
+        "윤준섭, 권다령"
+      ],
+      [
+        "음향",
+        "김지현, 이동재"
+      ],
+      [
+        "작곡",
+        "이동재"
+      ],
+      [
+        "편집",
+        "이미현"
+      ],
+      [
+        "VFX",
+        "박규태, 박도영"
+      ],
+      [
+        "D.I",
+        "김연호"
       ]
     ],
     "stills": [
