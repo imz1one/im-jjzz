@@ -189,7 +189,6 @@ code{background:#edf0f5;padding:2px 5px;border-radius:5px}
   <div class="brand">im.jjzz — PROJECT MANAGER</div>
   <div class="top-actions">
     <button class="btn" id="downloadAssetsButton">DOWNLOAD SELECTED IMAGES</button>
-    <button class="btn" id="resetDraftButton">RESET DRAFT</button>
     <button class="btn" id="copyButton">COPY projects.js</button>
     <button class="btn primary" id="downloadButton">DOWNLOAD projects.js</button>
   </div>
@@ -220,11 +219,7 @@ const roleOptions = [
     'Color Grading',
     'DIT'
 ];
-const sourceProjects =
-  Array.isArray(window.projects)
-    ? window.projects
-    : (typeof projects !== 'undefined' && Array.isArray(projects) ? projects : []);
-let data = JSON.parse(JSON.stringify(sourceProjects));
+let data = JSON.parse(JSON.stringify(window.projects || projects || []));
 let selectedIndex = data.length ? 0 : -1;
 const selectedAssets = new Map();
 
@@ -261,20 +256,17 @@ function normalizeProject(project={}){
     year: project.year || '',
     type: project.type || 'Short Film',
     duration: project.duration || '',
-   roles: [...new Set(
-      (Array.isArray(project.roles)
-        ? project.roles
-        : (Array.isArray(project.worksRole) ? project.worksRole : [])
-      ).map(role =>
-        ['Assistant Director', 'Production Assistant', 'Production Department', '연출부'].includes(role)
-          ? 'Production'
-          : role
-      )
-    )],
+   roles: Array.isArray(project.roles)
+  ? [...new Set(project.roles.map(role =>
+      ['Assistant Director', 'Production Assistant', 'Production Department', '연출부'].includes(role)
+        ? 'Production'
+        : role
+    ))]
+  : [],
     thumbnail: project.thumbnail || '',
-    hero: project.hero || project.heroImage || '',
-    video: project.video || project.watch?.embed || '',
-    videoUrl: project.videoUrl || project.watch?.youtube || project.watch?.instagram || '',
+    hero: project.hero || '',
+    video: project.video || '',
+    videoUrl: project.videoUrl || '',
     videoUrls: Array.isArray(project.videoUrls)
       ? project.videoUrls
       : (project.videoUrl ? [project.videoUrl] : []),
@@ -286,38 +278,10 @@ function normalizeProject(project={}){
     format: project.format || '',
     featured: Boolean(project.featured),
     credits: Array.isArray(project.credits) ? project.credits : [],
-    stills: Array.isArray(project.stills)
-      ? project.stills
-      : (Array.isArray(project.gallery) ? project.gallery : [])
+    stills: Array.isArray(project.stills) ? project.stills : []
   };
 }
 data = data.map(normalizeProject);
-
-
-const ADMIN_STORAGE_KEY = 'imjjzz-admin-projects-v1';
-
-function saveDraftToStorage(){
-  try{
-    localStorage.setItem(ADMIN_STORAGE_KEY, JSON.stringify(data));
-  }catch(error){
-    console.warn('Could not save admin draft:', error);
-  }
-}
-
-function restoreDraftFromStorage(){
-  try{
-    const saved = localStorage.getItem(ADMIN_STORAGE_KEY);
-    if(!saved) return false;
-    const parsed = JSON.parse(saved);
-    if(!Array.isArray(parsed)) return false;
-    data = parsed.map(normalizeProject);
-    selectedIndex = data.length ? 0 : -1;
-    return true;
-  }catch(error){
-    console.warn('Could not restore admin draft:', error);
-    return false;
-  }
-}
 
 function renderList(){
   listEl.innerHTML = data.map((project,index) => `
@@ -355,6 +319,15 @@ function saveCurrent(){
   editorEl.querySelectorAll('[data-field]').forEach(input => {
     const field = input.dataset.field;
     if(input.type === 'checkbox' && field === 'featured'){
+      if(input.checked && !project.featured){
+        const selectedCount = data.filter((item, index) => index !== selectedIndex && item.featured).length;
+        if(selectedCount >= 3){
+          input.checked = false;
+          project.featured = false;
+          toast('SELECTED WORKS는 최대 3개까지 선택할 수 있습니다.');
+          return;
+        }
+      }
       project.featured = input.checked;
     } else if(field === 'roles'){
       project.roles = [...editorEl.querySelectorAll('[data-role]:checked')].map(el=>el.value);
@@ -373,7 +346,6 @@ function saveCurrent(){
   });
 
   if(!project.id) project.id = slugify(project.title);
-  saveDraftToStorage();
 }
 
 
@@ -527,7 +499,7 @@ function renderEditor(){
         <div class="field"><label>형식</label><input data-field="type" value="${esc(p.type)}" placeholder="Short Film"></div>
         <div class="field"><label>러닝타임</label><input data-field="duration" value="${esc(p.duration)}" placeholder="18 min"></div>
         <div class="field">
-          <label>Featured</label>
+          <label>SELECTED WORK</label>
           <label class="check"><input type="checkbox" data-field="featured" ${p.featured?'checked':''}> Work에서 우선 노출</label>
         </div>
       </div>
@@ -676,8 +648,7 @@ document.getElementById('addButton').addEventListener('click', () => {
 
 function serialize(){
   saveCurrent();
-  const payload = JSON.stringify(data,null,2);
-  return 'const projects = ' + payload + ';\nwindow.projects = projects;\n';
+  return 'const projects = ' + JSON.stringify(data,null,2) + ';\n';
 }
 
 document.getElementById('downloadButton').addEventListener('click', () => {
@@ -702,15 +673,7 @@ document.getElementById('copyButton').addEventListener('click', async () => {
 
 document.getElementById('downloadAssetsButton').addEventListener('click', downloadSelectedAssets);
 
-document.getElementById('resetDraftButton').addEventListener('click', () => {
-  if(!confirm('임시 저장된 수정 내용을 지우고 현재 projects.js 데이터로 되돌릴까?')) return;
-  localStorage.removeItem(ADMIN_STORAGE_KEY);
-  location.reload();
-});
-
-
 window.addEventListener('beforeunload', saveCurrent);
-restoreDraftFromStorage();
 render();
 </script>
 </body>

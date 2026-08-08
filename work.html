@@ -994,29 +994,22 @@ document.addEventListener('DOMContentLoaded', () => {
     return year ? Number(year[0]) : 0;
   };
 
-  /* Preferred 3 projects. Works with either current English ids or older Korean ids.
-     If one isn't found, the next available project is used automatically. */
-  const selectedMatchers = [
-    project => String(project.title || '').toUpperCase() === 'BURIBURI' || String(project.id || '').toLowerCase() === 'buriburi',
-    project => String(project.title || '').toLowerCase() === 'daisy' || String(project.id || '').toLowerCase() === 'daisy',
-    project => String(project.title || '').includes('HETEROTOPIA') || String(project.id || '').toLowerCase().includes('heterotopia')
-  ];
+  /* Selected Works are controlled from admin.html via project.featured. */
+  const selectedProjects = projects
+    .filter(project => project.featured === true)
+    .slice(0, 3);
 
-  const selectedProjects = [];
-  selectedMatchers.forEach(match => {
-    const found = projects.find(project => match(project));
-    if (found && !selectedProjects.includes(found)) selectedProjects.push(found);
-  });
+  const selectedSection = document.querySelector('.selected-section');
+  const selectedCount = selectedSection?.querySelector('.section-count');
 
-  [...projects]
-    .sort((a, b) => parseProjectDate(b.year) - parseProjectDate(a.year))
-    .forEach(project => {
-      if (selectedProjects.length < 3 && !selectedProjects.includes(project)) {
-        selectedProjects.push(project);
-      }
-    });
+  if (selectedCount) {
+    selectedCount.textContent = String(selectedProjects.length).padStart(2, '0');
+  }
+  if (selectedSection) {
+    selectedSection.hidden = selectedProjects.length === 0;
+  }
 
-  selectedGrid.innerHTML = selectedProjects.slice(0, 3).map(project => `
+  selectedGrid.innerHTML = selectedProjects.map(project => `
     <a
       class="selected-card"
       href="project.html?id=${encodeURIComponent(project.id)}"

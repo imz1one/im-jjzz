@@ -920,7 +920,7 @@ const projects = [
     "camera": "Sony FX3",
     "lens": "Sony GM",
     "format": "S-log3 / S-Gamut3.Cine",
-    "featured": false,
+    "featured": true,
     "credits": [
       [
         "Director",
@@ -980,7 +980,7 @@ const projects = [
     "camera": "Sony FX6, Hollywood Black Magic 1/8",
     "lens": "",
     "format": "S-log3 / S-Gamut3.Cine",
-    "featured": false,
+    "featured": true,
     "credits": [
       [
         "Director",
@@ -1168,7 +1168,7 @@ const projects = [
     "camera": "Sony FX6",
     "lens": "",
     "format": "S-log3 / S-Gamut3.Cine",
-    "featured": false,
+    "featured": true,
     "credits": [
       [
         "Director",
@@ -1654,4 +1654,3 @@ const projects = [
     ]
   }
 ];
-window.projects = projects;
