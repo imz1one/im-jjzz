@@ -1898,9 +1898,9 @@ footer,
 
         <div id="projectWatchLinks" class="project-watch-links project-watch-links-cinematic"></div>
 
-        <section id="projectTechnicalSection" class="project-technical-left" hidden>
+        <section id="projectTechnicalSectionDesktop" class="project-technical-left project-technical-desktop" hidden>
           <span class="project-label">TECHNICAL INFO</span>
-          <div id="projectTechnical" class="project-technical project-technical-cinematic"></div>
+          <div id="projectTechnicalDesktop" class="project-technical project-technical-cinematic"></div>
         </section>
       </section>
 
@@ -1921,6 +1921,11 @@ footer,
         <section id="projectCreditsSection" class="project-info-section">
           <span class="project-label">CREDITS</span>
           <div id="projectCredits" class="project-credits project-credits-cinematic"></div>
+        </section>
+
+        <section id="projectTechnicalSectionMobile" class="project-info-section project-technical-mobile" hidden>
+          <span class="project-label">TECHNICAL INFO</span>
+          <div id="projectTechnicalMobile" class="project-technical project-technical-cinematic"></div>
         </section>
       </aside>
     </div>
@@ -2102,11 +2107,24 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   if (technicalRows.length) {
-    const technicalSection = document.getElementById('projectTechnicalSection');
-    technicalSection.hidden = false;
-    document.getElementById('projectTechnical').innerHTML = technicalRows.map(([label, value]) => `
+    const technicalMarkup = technicalRows.map(([label, value]) => `
       <div class="project-tech-row"><span>${label}</span><span>${String(value)}</span></div>
     `).join('');
+
+    const desktopSection = document.getElementById('projectTechnicalSectionDesktop');
+    const mobileSection = document.getElementById('projectTechnicalSectionMobile');
+    const desktopContent = document.getElementById('projectTechnicalDesktop');
+    const mobileContent = document.getElementById('projectTechnicalMobile');
+
+    if (desktopSection && desktopContent) {
+      desktopSection.hidden = false;
+      desktopContent.innerHTML = technicalMarkup;
+    }
+
+    if (mobileSection && mobileContent) {
+      mobileSection.hidden = false;
+      mobileContent.innerHTML = technicalMarkup;
+    }
   }
 
   const previous = projects[(index - 1 + projects.length) % projects.length];
