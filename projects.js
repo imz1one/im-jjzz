@@ -949,7 +949,7 @@ const projects = [
     "stills": []
   },
   {
-    "id": "여전히-찬란하게",
+    "id": "still-shining",
     "title": "여전히 찬란하게",
     "year": "Dec 2025",
     "type": "Film",
@@ -957,8 +957,8 @@ const projects = [
     "roles": [
       "DIT"
     ],
-    "thumbnail": "assets/yeojeonhi-chanranhage-designed.webp",
-    "hero": "assets/yeojeonhi-chanranhage-designed.webp",
+    "thumbnail": "assets/still-shining-thumb.webp",
+    "hero": "assets/still-shining-hero.webp",
     "video": "",
     "videoUrl": "",
     "videoUrls": [],
