@@ -957,8 +957,8 @@ const projects = [
     "roles": [
       "DIT"
     ],
-    "thumbnail": "assets/still-shining-thumb.webp",
-    "hero": "assets/still-shining-hero.webp",
+    "thumbnail": "assets/still-shining-thumb.png",
+    "hero": "assets/still-shining-hero.png",
     "video": "",
     "videoUrl": "",
     "videoUrls": [],
